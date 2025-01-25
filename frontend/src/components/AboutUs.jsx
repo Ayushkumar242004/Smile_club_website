@@ -2,33 +2,33 @@ import React from "react";
 
 export default function About() {
   return (
-    <div className="mx-6 my-6 py-16 bg-white">
+    <div className="mx-14 my-6 py-16 bg-white">
       {/* Main Content */}
-      <div className="grid grid-cols-2 gap-6 items-center">
+      <div className="grid md:grid-cols-2 lg:gap-8 gap-3 items-center">
         {/* Left Column - Images Grid */}
-        <div className=" lg:gap-5 md:gap-0 gap-2 flex justify-center ">
-            <div className=" flex flex-col lg:gap-5 md:gap-0 gap-2 relative top-[-3em]">
+        <div className=" lg:gap-4 md:gap-0 md:flex justify-center hidden">
+            <div className=" flex flex-col lg:gap-5 md:gap-0  relative top-[-3em]">
           <div className="relative h-full overflow-hidden">
             <img
               src="about1.jpg"
               alt="Hindu ceremony"
-              className="object-cover lg:size-[100%] md:size-[89%] sm:size-[85%]"
+              className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
           </div>
           <div className="relative h-full overflow-hidden">
             <img
               src="about3.jpg"
               alt="Diya ceremony"
-              className="object-cover lg:size-[100%] md:size-[89%] sm:size-[85%]"
+              className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
           </div>
           </div>
-          <div className="flex lg:gap-5 md:gap-0 gap-2 flex-col">
+          <div className="flex lg:gap-5 md:gap-0  flex-col">
           <div className="relative h-full overflow-hidden">
             <img
               src="about2.jpg"
               alt="Nataraja statue"
-              className="object-cover lg:size-[100%] md:size-[89%] sm:size-[85%]"
+              className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
           </div>
           
@@ -36,7 +36,7 @@ export default function About() {
             <img
               src="about4.jpg"
               alt="Ganesha idol"
-              className="object-cover lg:size-[100%] md:size-[89%] sm:size-[85%]"
+              className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
           </div>
           </div>
@@ -45,11 +45,11 @@ export default function About() {
         {/* Right Column - Content  */}
         <div className=" lg:space-y-2 ">
           <div className="flex items-center gap-2 font-semibold text-[#8B1D42]">
-            <span className="lg:text-2xl md:text-lg">ॐ</span>
-            <h2 className="lg:text-lg md:text-base">ABOUT US</h2>
+            <span className="lg:text-2xl text-lg">ॐ</span>
+            <h2 className="lg:text-lg md:text-sm text-base">Celebrating Indian Culture with Joy and Pride</h2>
           </div>
 
-          <h1 className="md:text-3xl lg:text-5xl font-bold text-[#E23D3D] leading-tight">
+          <h1 className="text-3xl lg:text-5xl font-bold text-[#E23D3D] leading-tight">
             About Us
           </h1>
 
@@ -63,10 +63,9 @@ export default function About() {
             </div>
 
             {/* Text */}
-            <p className="text-gray-800 lg:text-base text-sm leading-relaxed mt-5">
-              We are a Hindu that believes in Lord Rama and Vishnu Deva the followers,
-              and we are a Hindu that believes in Lord Rama and Vishnu Deva.
-            </p>
+            <p className="text-[#000] lg:text-base text-justify text-sm leading-relaxed lg:mt-3 mt-3 my-4"> 
+            SMILE stands for Ancient Science and Technology for Modern India, Life, and Enlightenment. We are a student initiative spreading the richness of Indian culture through engaging programs. 
+          </p>
           </div>
 
           {/* Features */}
@@ -74,14 +73,14 @@ export default function About() {
             {/* Temple Feature */}
             <div className="flex gap-4 items-start">
               <div className="flex items-center justify-center">
-                <img src="om.png" alt="om" />
+                <img src="om.png" alt="om"/>
               </div>
               <div>
                 <h3 className="lg:text-xl text-lg font-semibold text-[#E23D3D] mb-2">
-                  Temple
+                Our Approach
                 </h3>
-                <p className="text-gray-600 lg:text-base text-sm">
-                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                <p className="text-gray-800 text-justify lg:text-base text-sm">
+                We offer a blend of scientific, cultural, and traditional programs that present Indian culture in a way that resonates with both modern and traditional mindsets.
                 </p>
               </div>
             </div>
@@ -93,10 +92,10 @@ export default function About() {
               </div>
               <div>
                 <h3 className="lg:text-xl text-lg font-semibold text-[#E23D3D] mb-2">
-                  Puja
+                Cultural Engagement
                 </h3>
-                <p className="text-gray-600 lg:text-base text-sm">
-                  It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.
+                <p className="text-gray-800 text-justify lg:text-base text-sm">
+                Through events like dramas, workshops, and competitions, we provide students the opportunity to showcase their talents and connect with Indian traditions in meaningful ways.
                 </p>
               </div>
             </div>
