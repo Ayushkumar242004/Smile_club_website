@@ -48,6 +48,11 @@ module.exports = {
       hero: {
         50: "#012441"
       },
+      maroon: {
+        700: "#6a1b1a",
+        800: "#4d1111",
+        900: "#3a0b0b",
+      },
     },
     extend: {
       fontSize: {
