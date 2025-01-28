@@ -69,7 +69,7 @@ const PercentageCircle = ({ percentage, label, description }) => {
             transform="rotate(-90 50 50)"
           />
         </svg>
-        <div className="absolute inset-0 flex md:left-[3em] sm:left-0 left-[1.5em] items-center md:justify-end justify-center text-2xl font-bold text-[#520d24]">
+        <div className="absolute inset-0 flex md:left-[3em] lg:right-[2em] sm:left-0 left-[1.5em] items-center md:justify-end justify-center text-2xl font-bold text-[#520d24]">
           {animatedPercentage}%
         </div>
       </div>
