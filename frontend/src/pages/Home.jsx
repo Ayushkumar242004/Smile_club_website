@@ -10,7 +10,6 @@ export default function Home() {
   return (
     <div className="">
       <Hero />
-      <Vision />
       <Numbers />
       <Sig />
       <EventsCard />
