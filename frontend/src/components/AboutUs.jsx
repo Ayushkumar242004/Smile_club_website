@@ -49,7 +49,7 @@ export default function About() {
             <h2 className="lg:text-lg md:text-sm text-base">Celebrating Indian Culture with Joy and Pride</h2>
           </div>
 
-          <h1 className="text-3xl lg:text-5xl font-bold text-[#E23D3D] leading-tight">
+          <h1 className="text-4xl lg:text-5xl font-bold text-[#E23D3D] leading-tight">
             About Us
           </h1>
 
