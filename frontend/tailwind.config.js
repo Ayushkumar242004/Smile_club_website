@@ -55,6 +55,15 @@ module.exports = {
       },
     },
     extend: {
+      animation: {
+        "move-light": "moveLight 3s linear infinite",
+      },
+      keyframes: {
+        moveLight: {
+          "0%": { transform: "translateX(0%)" },
+          "100%": { transform: "translateX(50%)" },
+        },
+      },
       fontSize: {
         base: '1rem',
         xs: '0.75rem',
