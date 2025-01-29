@@ -2,8 +2,7 @@ import React from "react";
 import Hero from "../components/Hero";
 import Sig from "../components/Sig";
 import Numbers from "../components/Numbers";
-import Vision from "../components/Vision";
-import EventsCard from "../components/EventsCard";
+import Timeline from "../components/Timeline";
 import Marquee from "../components/Marquee";
 
 export default function Home() {
@@ -12,7 +11,7 @@ export default function Home() {
       <Hero />
       <Numbers />
       <Sig />
-      <EventsCard />
+      <Timeline />
       <Marquee />
     </div>
   );
