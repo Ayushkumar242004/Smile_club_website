@@ -53,6 +53,10 @@ module.exports = {
         800: "#4d1111",
         900: "#3a0b0b",
       },
+      orange: {
+        500: "#f7614a",
+        700: "#fa4023",
+      },
     },
     extend: {
       animation: {
