@@ -8,14 +8,14 @@ export default function About() {
         {/* Left Column - Images Grid */}
         <div className=" lg:gap-4 md:gap-0 md:flex justify-center hidden">
             <div className=" flex flex-col lg:gap-5 md:gap-0  relative top-[-3em]">
-          <div className="relative h-full overflow-hidden">
+          <div className="relative h-full overflow-hidden shadow-md">
             <img
               src="about1.jpg"
               alt="Hindu ceremony"
               className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
           </div>
-          <div className="relative h-full overflow-hidden">
+          <div className="relative h-full overflow-hidden shadow-md">
             <img
               src="about3.jpg"
               alt="Diya ceremony"
@@ -24,7 +24,7 @@ export default function About() {
           </div>
           </div>
           <div className="flex lg:gap-5 md:gap-0  flex-col">
-          <div className="relative h-full overflow-hidden">
+          <div className="relative h-full overflow-hidden shadow-md">
             <img
               src="about2.jpg"
               alt="Nataraja statue"
@@ -32,7 +32,7 @@ export default function About() {
             />
           </div>
           
-          <div className="relative h-full overflow-hidden">
+          <div className="relative h-full overflow-hidden shadow-md">
             <img
               src="about4.jpg"
               alt="Ganesha idol"
