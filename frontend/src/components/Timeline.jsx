@@ -9,6 +9,14 @@ export default function Timeline() {
 
     return (
         <div className="justify-center my-16">
+            <div className="text-start mb-16 lg:px-28 md:px-16 sm:px-24 px-14">
+                
+                <p className="uppercase text-[#8B1D42] md:text-2xl text-xl">ॐ</p>
+                <h2 className="lg:text-6xl text-4xl font-bold text-[#c52f2f]">Timeline</h2>
+                <a href="/events" className="text-sm text-gray-600 hover:text-[#c52f2f] flex items-center lg:px-32 px-9 mt-2 ">
+                    View All Events →
+                </a>
+            </div>
             {content.map((content) => (
                 <div className="w-full px-16 flex flex-row justify-center" key={content.id}>
                     
