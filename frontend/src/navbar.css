@@ -4,7 +4,7 @@
   box-sizing: border-box;
   font-family: "montserrat";
   color: #fff;
-  background-color: black;
+  /* background-color: black; */
 }
 .navbar-header {
   width: 100%;
@@ -16,13 +16,15 @@
   align-items: center;
   justify-content: center;
   padding: 0 20px;
+  backdrop-filter: blur(3.5px);
 }
   
   .navbar {
-    /* background-color: rgba(163, 168, 171, 0.714); */
+    background-color: rgba(85, 0, 0, 0.65);
+    border-radius: 20px;
     backdrop-filter: blur(4.5px);
-    height: 3.4em;
-    width: 90%;
+    height: 2.4em;
+    width: auto;
     margin: 0 auto;
     display: flex;
     align-items: center;
