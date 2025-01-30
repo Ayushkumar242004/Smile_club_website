@@ -185,7 +185,7 @@ export default function Hero() {
 
         {/* Flame */}
         <motion.div
-          className="flame relative bg-fixed opacity-75 lg:top-[12%] xl:top-[18%] md:top-[9.5%] sm:left-[30.6%] left-[30%] text-[0.5em] md:text-[0.9em] lg:text-[1.2em] sm:top-[25%] top-[17%] sm:w-[1em] md:h-[3em] w-[.01em] h-[2.5em]"
+          className="flame relative bg-fixed opacity-75 lg:top-[12%] xl:top-[18%] md:top-[9.5%] sm:left-[30.6%] left-[28.5%] text-[0.5em] md:text-[0.9em] lg:text-[1.2em] sm:top-[25%] top-[15%] sm:w-[1em] md:h-[3em] w-[.01em] h-[2.5em]"
           style={{
             transform: "translateX(-50%)", 
           }}

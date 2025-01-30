@@ -2,7 +2,7 @@ import { Check } from "lucide-react"
 
 export default function Vision() {
   return (
-    <div className="container mx-auto px-4 py-8 md:py-12 lg:py-16 mb-10">
+    <div className="container mx-auto lg:px-4 px-16 py-8 md:py-12 lg:py-16 mb-10">
       <div className="relative">
         {/* Main content container */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center pt-16 lg:pt-0">
