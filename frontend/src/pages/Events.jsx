@@ -1,5 +1,6 @@
 import React from "react";
 import EventsCard from "../components/EventsCard";
+import Videos from "../components/Videos";
 import Broadcast from "../components/Broadcast"
 import { motion, useMotionValue, useSpring } from "framer-motion";
 export default function Events() {
