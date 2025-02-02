@@ -1,40 +1,44 @@
-.switch-button{
+.switch-button {
     background-color: white;
     border-radius: 30px;
     font-weight: 400;
+    display: flex; /* Added */
     justify-content: space-between;
-    /* position: fixed; */
-    color: rgba(85, 0, 0);
+    color: rgba(85, 0, 0, 1); /* Added alpha value */
 }
 
-.blog-text{
-    color: rgba(85, 0, 0);
+.blog-text {
+    color: rgba(85, 0, 0, 1); /* Added alpha value */
 }
-.blog-text-black{
+
+.blog-text-black {
     color: grey;
 }
 
-.blog-red{
+.blog-red {
     color: rgb(160, 24, 24);
 }
-.pic-blog{
+
+.pic-blog {
     width: 450px;
     height: 355px;
     margin-bottom: 30px;
     display: block;
-
+    object-fit: cover; /* Added */
 }
-.blog-text-cs{
+
+.blog-text-cs {
     font-size: 20px;
     font-weight: 500;
-    color: rgba(85, 0, 0);
-}
-.post{
-    padding: 20px;
-    
+    color: rgba(85, 0, 0, 1); /* Added alpha value */
 }
 
-.card-grid{
+.post {
+    padding: 20px;
+}
+
+.card-grid {
+    display: flex; /* Added */
     justify-content: center;
     align-items: center;
 }
