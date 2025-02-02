@@ -17,288 +17,110 @@ const Footer = () => {
   }, []);
 
   return (
-    <>
-      <style>
-        {`
-                    * {
-                margin: 0;
-                padding: 0;
-                box-sizing: border-box;
-                font-family: "montserrat";
-                color: #fff;
-            }
-            
-            body {
-                display: flex;
-                flex-direction: column;
-                min-height: 100vh; /* Ensure the body takes at least 100% height */
-            }
-            
-            .smile {
-                cursor: default;
-                text-align: center;
-                color: #f0eded3a;
-                font-size: 9.5em;
-                line-height: 1.2em;
-                letter-spacing: .2em;
-                text-shadow: 0 0 5px hsla(0, 10%, 94%, 0.097),
-                0 0 10px #f0eded13,
-                0 0 15px #b8b0b800,
-                0 0 20px #87838700,
-                0 0 25px #aaa7aa00,
-                0 0 30px #cfc5cf00,
-                0 0 35px #d6d3d600;
-            }
-            
-            .footer {
-                background: linear-gradient(to top, rgb(2, 2, 24), black);
-                height: 26em;
-                overflow: hidden;
-                margin-top: auto; /* Push the footer to the bottom */
-            }
-            
-            .footer-text {
-                height: 21em;
-                display: flex;
-                justify-content: space-around;
-                padding-top: 3em;
-                font-size: small;
-            }
-            
-            .conclude {
-                width: 29%;
-            }
-            
-            .conclude-text {
-                font-size: 1.1em;
-                line-height: 1.5em;
-                margin: 1.5em 0;
-            }
-            
-            /* Social media links */
-            .social-media {
-                height: 4em;
-                display: flex;
-                justify-content: center;
-                gap: 1em;
-            }
-            
-            .bg-circle {
-                margin-top: 1.5em;
-                background-color: white;
-                height: 2em;
-                width: 2em;
-                border-radius: 50%;
-            }
-            
-            .bg-circle i {
-                margin-left: .45em;
-                font-size: 1em;
-                color: #000;
-            }
-            
-            .list-header {
-                font-weight: bold;
-                font-size: 1.2em;
-            }
-            
-            .list-points {
-                font-size: 1.1em;
-            }
-            
-            .quick-links,
-            .download-app,
-            .company {
-                list-style-type: none;
-                line-height: 2.5em;
-            }
-            
-            .list-points:hover {
-                text-decoration: underline;
-                cursor: pointer;
-            }
-            
-            .list-points {
-                color: rgb(138, 134, 134);
-            }
-            
-            .list-points a {
-                text-decoration: none;
-                color: rgb(138, 134, 134);
-            }
-            
-            .logo img {
-                height: 100px;
-                width: 100px;
-                background: radial-gradient(circle, rgba(182, 182, 177, 0.473) 1%, rgba(55, 55, 53, 0.473), black 99%);
-            }
-            
-            .logo {
-                margin-left: 4em;
-            }
-            
-            @media (max-width: 950px) {
-                .smile {
-                letter-spacing: .1em;
-                }
-            }
-            
-            @media (max-width: 900px) {
-                .smile {
-                letter-spacing: 0em;
-                }
-            }
-            
-            @media (max-width: 700px) {
-                .list-header {
-                font-size: 1em;
-                }
-            
-                .smile {
-                font-size: 7em;
-                }
-            
-                .footer {
-                height: 23.5em;
-                }
-            
-                .logo img {
-                height: 60px;
-                width: 60px;
-                }
-            }
-            
-            @media (max-width: 500px) {
-                .list-header {
-                font-size: .8em;
-                }
-            
-                .list-points {
-                font-size: .8em;
-                }
-            
-                .conclude-text {
-                font-size: 1.2em;
-                line-height: 1.2em;
-                }
-            
-                .download-app {
-                display: none;
-                }
-            
-                .conclude {
-                width: 45%;
-                }
-            
-                .smile {
-                font-size: 4.5em;
-                }
-            
-                .footer {
-                height: 21em;
-                }
-            }
-            
-            @media (max-width: 450px) {
-                .company {
-                display: none;
-                }
-            }
-            
-            footer {
-                margin-top: auto; /* This ensures footer stays at the bottom */
-            }
-            
-
-        `}
-      </style>
-
-      <footer>
-        <div className="footer">
-          {/* Footer conclusion and links */}
-          <div className="footer-text">
-            {/* First box */}
-            <div className="conclude">
-              <div className="logo">
-                <img
-                  src="https://res.cloudinary.com/dmnep85ym/image/upload/v1713867500/for_black_bgm_ioxgoi.png"
-                  alt="Smile Club Logo"
-                />
-              </div>
-              <div className="conclude-text">
-                <p>
-                  SMILE Club is a college initiative celebrating Indian culture
-                  through engaging events. Join us to explore and embrace our rich
-                  heritage with a vibrant community.
-                </p>
-              </div>
-            </div>
-
-            {/* Second box */}
-            <div className="quick-links">
-              <li className="list-header">QUICK LINKS</li>
-              <li className="list-points">
-                <a href="/">Home</a>
-              </li>
-              <li className="list-points">
-                <a href="/blogs/">Blogs</a>
-              </li>
-              <li className="list-points">
-                <a href="/gallery/">Gallery</a>
-              </li>
-            </div>
-
-            {/* Third box */}
-            <div className="company">
-              <li className="list-header">OTHER LINKS</li>
-              <li className="list-points">
-                <a href="/about/">About Us</a>
-              </li>
-              <li className="list-points">
-                <a href="/timeline/">Events</a>
-              </li>
-            </div>
-
-            {/* Fourth box */}
-            <div className="download-app">
-              <li className="list-header">FOLLOW US ON</li>
-              <div className="social-media">
-                <div className="bg-circle">
-                  <a
-                    href="https://www.instagram.com/smile._.club_nitk/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa-brands fa-instagram"></i>
-                  </a>
-                </div>
-                <div className="bg-circle">
-                  <a
-                    href="https://www.linkedin.com/company/smile-club-nitk/"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa-brands fa-linkedin-in"></i>
-                  </a>
-                </div>
-                <div className="bg-circle">
-                  <a
-                    href="https://youtube.com/@SMILEClub_NITK?si=qk-v-oJZi8M7igKn"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    <i className="fa-brands fa-youtube"></i>
-                  </a>
-                </div>
-              </div>
-            </div>
+    <footer className="bg-[#770707] mt-auto">
+      <div className="flex flex-col sm:flex-row space-y-7 sm:space-y-0 justify-center items-center text-center sm:justify-around sm:items-start lg:py-14 px-7 md:p-10 sm:py-10 sm:px-4 pb-7">
+        
+        {/* First box */}
+        <div className="lg:w-[25%] sm:w-[28%] sm:text-center hidden sm:flex sm:flex-col">
+          <div className="mb-4">
+            <img
+              className="md:h-24 md:w-24 w-20 h-20 mx-auto"
+              src="logo.png"
+              alt="Smile Club Logo"
+            />
           </div>
-
-          {/* Footer company name */}
-          <h2 className="smile">smile club</h2>
+          <div className="text-white lg:text-lg md:text-base text-sm">
+            <p>
+              Experience the joy of Indian culture with SMILE Club, where tradition meets enthusiasm!
+            </p>
+          </div>
         </div>
-      </footer>
-    </>
+
+        {/* Quick Links */}
+        <div className="sm:w-[15%]">
+          <div className="text-white font-semibold lg:text-xl md:text-lg text-base sm:mb-4 mb-2">
+            QUICK LINKS
+          </div>
+          <ul className="text-gray-200 lg:text-lg text-base">
+            <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
+              <a href="/" className="">
+                Home
+              </a>
+            </li>
+            <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
+              <a href="/blogs/" className="">
+                Blogs
+              </a>
+            </li>
+            <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
+              <a href="/gallery/" className="">
+                Gallery
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Other Links */}
+        <div className="sm:w-[15%]">
+          <div className="text-white font-semibold  lg:text-xl md:text-lg text-base sm:mb-4 mb-2">
+            OTHER LINKS
+          </div>
+          <ul className="text-gray-200 lg:text-lg text-base ">
+            <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
+              <a href="/AboutUs/" className="">
+                About Us
+              </a>
+            </li>
+            <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
+              <a href="/events" className="">
+                Events
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        {/* Contact Section */}
+        <div className="lg:w-[16%] sm:w-[20%] w-[65%] text-white sm:text-start text-center">
+          <div className="text-white font-semibold lg:text-xl md:text-lg text-base sm:mb-4 mb-2">
+            CONTACT
+          </div>
+          <p className="mb-6 lg:text-lg text-base">
+            NITK Surathkal, NH 66, Srinivasnagar, Surathkal, Mangalore, Karnataka 575025
+          </p>
+          <div className="flex sm:justify-start justify-center md:gap-5 gap-6">
+            <a
+              href="https://www.instagram.com/smile._.club_nitk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-xl transition-transform transform hover:scale-125 hover:text-gray-300"
+            >
+              <i className="fa-brands fa-instagram"></i>
+            </a>
+            <a
+              href="https://www.linkedin.com/company/smile-club-nitk/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-xl transition-transform transform hover:scale-125 hover:text-gray-300"
+            >
+              <i className="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a
+              href="https://youtube.com/@SMILEClub_NITK?si=qk-v-oJZi8M7igKn"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-white text-xl transition-transform transform hover:scale-125 hover:text-gray-300"
+            >
+              <i className="fa-brands fa-youtube"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      {/* Copyright */}
+      <div className="text-center text-white sm:text-md text-[0.8em] py-3 sm:px-0 px-3 text-wrap bg-[#550b0bac]">
+        <p>&copy; 2025 All rights reserved | Made with ❤️ by Smile Club</p>
+      </div>
+    </footer>
   );
 };
 
