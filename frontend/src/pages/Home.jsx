@@ -5,6 +5,7 @@ import Numbers from "../components/Numbers";
 import Timeline from "../components/Timeline";
 import Marquee from "../components/Marquee";
 import Navbar from "../components/Navbar";
+import Mission from "../components/mission";
 
 export default function Home() {
   return (

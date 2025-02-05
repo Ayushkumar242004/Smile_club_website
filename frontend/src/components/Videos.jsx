@@ -8,41 +8,34 @@ import { Play, X } from "lucide-react"
 
 const videoData = [
   {
-    id: 6,
-    title: "New Hindu Temple Opening Ceremony",
-    videoId: "videoId",
-    date: "2026-02-01",
-    description:
-      "Watch the grand opening ceremony of our new Hindu temple in Varanasi. Watch the grand opening ceremony of our new Hindu temple in Varanasi. Watch the grand opening ceremony of our new Hindu temple in Varanasi.",
-  },
-  {
     id: 5,
     title: "New Hindu Festival Celebration",
-    videoId: "videoId",
-    date: "2025-01-01",
+    videoId: "HxulHaWC_io",
+    date: "2025-02-01",
+    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque magna magna, pretium ut porta id, elementum eget mauris. Phasellus quis velit varius, luctus ligula ut, finibus leo. Ut eget massa eget urna sollicitudin suscipit vel vitae purus. Donec commodo dolor in lorem dictum, vel porttitor eros dictum. Donec a mattis mi.",
   },
   {
     id: 1,
-    title: "Varansi at Night",
-    videoId: "videoId",
+    title: "Lorem Ipsum",
+    videoId: "HxulHaWC_io",
     date: "2024-08-15",
   },
   {
     id: 2,
-    title: "Chaar Dhaam Yatra",
-    videoId: "videoId",
+    title: "Lorem Ipsum",
+    videoId: "HxulHaWC_io",
     date: "2024-07-20",
   },
   {
     id: 3,
-    title: "Mahashivratri Temple",
-    videoId: "videoId",
+    title: "Lorem Ipsum",
+    videoId: "HxulHaWC_io",
     date: "2024-06-10",
   },
   {
     id: 4,
-    title: "OM Mahashivratri",
-    videoId: "videoId",
+    title: "Lorem Ipsum",
+    videoId: "HxulHaWC_io",
     date: "2024-05-05",
   },
 ]
@@ -119,7 +112,7 @@ const Videos = () => {
           </div>
         </div>
         <div className="flex flex-col justify-center w-4/5 lg:w-4/5 xl:w-1/2 mx-auto lg:mx-0">
-          <p className="text-gray-500 mb-2">
+          <p className="text-gray-800 mb-2">
             {new Date(mainVideo.date).toLocaleDateString("en-US", { year: "numeric", month: "long", day: "numeric" })}
           </p>
           <h2 className="text-3xl font-bold text-orange-500 mb-4">{mainVideo.title}</h2>
