@@ -8,6 +8,7 @@ function Panel({ faq, isActive, setIsActive }) {
 
     return (
         <div className={`${isActive === faq.id ? "shadow-md shadow-[#bababa]" : ""} rounded-lg m-2`}>
+        {/* Question Section */}
         <button
             className={`${isActive === faq.id ? "bg-[#7e4555] rounded-t-lg" : "bg-[#f7f7f7] rounded-lg"} flex justify-between items-center w-full py-4 px-4`}
             onClick={() => {isActive === faq.id ? setIsActive(0) : setIsActive(faq.id)}}
@@ -15,9 +16,10 @@ function Panel({ faq, isActive, setIsActive }) {
         >
             <div className={`text-left ${isActive === faq.id ? "text-white" : "text-[#db4242]"} font-bold`}>{faq.question}</div>
             <div className={`${isActive === faq.id ? "" : "rotate-90"} ease-in-out duration-300 ml-6 flex-shrink-0`}>
-            {isActive===faq.id ? <Minus className="h-6 w-6" /> :<Plus className="h-6 w-6" color="#848486" />}
+            {isActive===faq.id ? <Minus className="h-6 w-6" color="#FFFFFF" /> :<Plus className="h-6 w-6" color="#848486" />}
             </div>
         </button>
+        {/* Answer Section */}
         <div className="">
             <AnimatePresence>
                 {isActive===faq.id && (
