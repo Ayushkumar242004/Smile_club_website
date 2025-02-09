@@ -1,6 +1,8 @@
 import React from "react";
 import EventsCard from "../components/EventsCard";
-import Broadcast from "../components/Broadcast"
+import Broadcast from "../components/Broadcast";
+import Testimonial from "../components/Testimonial";
+import FAQSection from "../components/FAQ";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 export default function Events() {
   return (
@@ -27,12 +29,13 @@ export default function Events() {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.5 }}
                 >
-                  BLOG GRID
+                  EVENTS
                 </motion.h1>
               </div>
             </div>
-      <EventsCard />    
-      <Broadcast/>
+      {/* <EventsCard />     */}
+      <Testimonial/>
+      <FAQSection/>
     </div>
   );
 }
