@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Loader from "./components/Loader";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
 import Team from "./pages/Team";
@@ -22,8 +23,17 @@ function MainLayout() {
   const validRoutes = ["/", "/events", "/team", "/blogs"];
   const is404Page = !validRoutes.includes(location.pathname); // If not a valid route, it's 404
 
+  const [loading, setLoading] = useState(false);
+
+  useEffect(() => {
+    setLoading(true);
+    const timer = setTimeout(() => setLoading(false), 800); // Simulating network delay
+    return () => clearTimeout(timer);
+  }, [location]);
+
   return (
     <div className="flex flex-col min-h-screen bg-white">
+      {loading && <Loader />}
       {!is404Page && <Navbar />}
       <div className="flex-grow">
         <Routes>
