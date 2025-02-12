@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-
-import { motion, useMotionValue } from "framer-motion";
+import Navbar from "../components/Navbar";
+import Home from "./Home";
+import { motion, useMotionValue, useSpring } from "framer-motion";
 import '../blogs.css'
 import RecentPosts from "../components/SideComponent";
 import CardGridPage from "../components/Card";
@@ -9,7 +10,9 @@ export default function Blogs() {
   const [activeSection, setActiveSection] = useState("home");
   const mouseX = useMotionValue(0);
   const mouseY = useMotionValue(0);
-  
+  const springConfig = { damping: 25, stiffness: 700 };
+  const springX = useSpring(mouseX, springConfig);
+  const springY = useSpring(mouseY, springConfig);
 
   useEffect(() => {
     const handleMouseMove = (event) => {
