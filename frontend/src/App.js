@@ -5,7 +5,7 @@ import Footer from "./components/Footer";
 import Loader from "./components/Loader";
 import Home from "./pages/Home";
 import Events from "./pages/Events";
-import Team from "./pages/Team";
+import Teams from "./pages/Team";
 import Blogs from "./pages/Blogs";
 
 function App() {
@@ -17,11 +17,9 @@ function App() {
 }
 
 function MainLayout() {
-  const location = useLocation(); // Get the current path
-
-  // Define all valid routes
-  const validRoutes = ["/", "/events", "/team", "/blogs"];
-  const is404Page = !validRoutes.includes(location.pathname); // If not a valid route, it's 404
+  const location = useLocation();
+  const validRoutes = ["/", "/events", "/teams", "/blogs"];
+  const is404Page = !validRoutes.includes(location.pathname);
 
   const [loading, setLoading] = useState(false);
 
@@ -33,21 +31,29 @@ function MainLayout() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      {loading && <Loader />}
-      {!is404Page && <Navbar />}
-      <div className="flex-grow">
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/events" element={<Events />} />
-          <Route path="/team" element={<Team />} />
-          <Route path="/blogs" element={<Blogs />} />
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </div>
+      {!is404Page && <Navbar />}  {/* ✅ Ensure Navbar is always present */}
+      
+      {/* Loader now appears OVER the content instead of blocking the Navbar */}
+      {loading ? (
+        <Loader />
+      ) : (
+        <div className="flex-grow">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/events" element={<Events />} />
+            <Route path="/teams" element={<Teams />} /> 
+            <Route path="/blogs" element={<Blogs />} />
+            <Route path="*" element={<NotFound />} />
+          </Routes>
+
+        </div>
+      )}
+      
       {!is404Page && <Footer />}
     </div>
   );
 }
+
 
 function NotFound() {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });

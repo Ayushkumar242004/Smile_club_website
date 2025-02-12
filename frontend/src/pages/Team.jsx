@@ -1,14 +1,12 @@
 import React from "react";
+import Hero2 from "../components/Hero2";
 import OurTeam from "../components/OurTeam";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
 
-export default function Team() {
+export default function Teams() {
   return (
-    <div className="bg-red-200 min-h-screen">
-      <Navbar />
+    <div className="">
+      <Hero2 heading="Meet The Team." image="banner.jpg" />
       <OurTeam />
-      <Footer />
     </div>
   );
 }

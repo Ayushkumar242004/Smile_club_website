@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import Hero2 from "../components/Hero2";
 import Navbar from "../components/Navbar";
 import Home from "./Home";
 import { motion, useMotionValue, useSpring } from "framer-motion";
@@ -32,64 +33,8 @@ export default function Blogs() {
 
   return (
     <div className="min-h-screen bg-black">
-      {/* <Navbar /> */}
       
-      {/* Hero Section */}
-      <div className="relative w-full h-[50vh]">
-        <motion.div
-          className="absolute inset-0"
-          style={{
-            background: `linear-gradient(rgba(128, 0, 0, 0.2), rgba(128, 0, 0, 0.7)), url('/shiv.jpeg')`,
-            backgroundSize: "160%", // Zoom the image by increasing size
-            backgroundRepeat: "no-repeat",
-            backgroundPosition: "center",
-            filter: "brightness(0.5) sepia(0.3) hue-rotate(-10deg)"
-          }}
-        />
-        
-        {/* Content Overlay */}
-        <div className="relative z-10 flex flex-col items-center justify-center h-full text-center">
-          <motion.h1 
-            className="text-6xl font-bold text-white tracking-wider"
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.5 }}
-          >
-            BLOG GRID
-          </motion.h1>
-        </div>
-      </div>
-
-      {/* Section Switch Buttons */}
-      <motion.div
-        className="relative w-full text-center mt-[-2em] px-6 py-2 bg-[#fff] text-maroon-900 rounded-full font-bold hover:scale-110 transition-all shadow-lg hover:shadow-xl mx-auto max-w-max text-lg tracking-wider drop-shadow-[0_2px_8px_rgba(0,0,0,0.5)]"
-        whileHover={{ scale: 1.1 }}
-      >
-        <motion.button
-          className={`px-6 py-2 rounded ${
-            activeSection === "home" 
-              ? 'text-maroon-900' 
-              : 'text-[#6c736d]'
-          }`}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={() => (window.location.href = "/")}
-        >
-          Home
-        </motion.button>
-        <motion.button
-          className={`px-6 py-2 rounded ${
-            activeSection === "blogs" 
-              ? 'text-maroon-900' 
-              : 'text-[#6c736d]'
-          }`}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-          onClick={() => setActiveSection("blogs")}
-        >
-          Blogs
-        </motion.button>
-      </motion.div>
+      <Hero2 heading="Blogs" image="banner.jpg" />
 
       {/* Section Content */}
       <div className="mt-8 px-4">
