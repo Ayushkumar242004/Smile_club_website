@@ -34,7 +34,7 @@ export default function Events() {
                 </motion.h1>
               </div>
             </div>
-      {/* <EventsCard />     */}
+      <EventsCard />    
       <Videos />    
       <Testimonial/>
       <FAQSection/>
