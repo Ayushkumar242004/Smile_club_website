@@ -14,11 +14,6 @@ const OurTeam = () => {
       {categories.map(({ title, key }) => (
         <div key={key} className="mb-16">
           <div className="text-center mb-8">
-            <div className="flex items-center justify-center gap-2 text-maroon-700 mb-4">
-              <span className="text-2xl text-[#8B1D42]">🕉</span>
-              <span className="uppercase tracking-wide text-[#8B1D42]">MEET</span>
-              <span className="text-2xl text-[#8B1D42]">🕉</span>
-            </div>
             <h1 className="text-4xl md:text-5xl font-bold text-orange-500 mb-12">{title}</h1>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-10 px-8">

@@ -1,35 +1,47 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
+
+const quotes = [
+  "Do your duty, results will follow. - Bhagavad Gita",
+  "Fear is born from attachment. - Mahabharata",
+  "Truth alone triumphs. - Mundaka Upanishad",
+  "Anger leads to destruction. - Ramayana",
+  "A calm mind brings strength. - Bhagavad Gita",
+  "Time is the greatest teacher. - Mahabharata",
+  "Greed destroys wisdom. - Mahabharata",
+  "Selfless action brings peace. - Bhagavad Gita",
+  "Patience is the greatest virtue. - Ramayana",
+  "Desire is the root of suffering. - Bhagavad Gita",
+];
 
 export default function Marquee() {
+  const [displayedQuotes, setDisplayedQuotes] = useState([]);
+
+  useEffect(() => {
+    // Duplicate quotes array to create a seamless scrolling effect
+    setDisplayedQuotes([...quotes, ...quotes]);
+  }, []);
+
   return (
-    <div className="relative overflow-hidden h-20 border-t-2 border-red-700 w-full bg-[#FBFEF9] shadow-lg">
-      {/* Marquee Strip */}
-      <div className="flex items-center h-20 px-8 animate-scroll w-max">
+    <div className="relative overflow-hidden border-t-2 border-red-700 w-full bg-[#FBFEF9] shadow-lg">
+      <div className="flex items-center h-12 px-8 animate-scroll w-max">
         <div className="flex whitespace-nowrap">
-          <span className="mr-16 text-[#550505] font-bold text-xl text-shadow-md">
-            "You have the right to work, but never to the fruit of work. Let not the fruits of action be your motive, nor let your attachment be to inaction."
-            (तुम्हारा कर्तव्य कार्य करना है, परंतु उसके फल का अधिकार तुम्हारा नहीं है। तुम्हारे कार्य के फलों पर तुम्हारा कोई अधिकार नहीं होना चाहिए, और न ही तुम्हें निष्क्रियता में आसक्ति होनी चाहिए।)
-          </span>
-          <span className="mr-16 text-[#550505] font-bold text-xl text-shadow-md">
-            "You have the right to work, but never to the fruit of work. Let not the fruits of action be your motive, nor let your attachment be to inaction."
-            (तुम्हारा कर्तव्य कार्य करना है, परंतु उसके फल का अधिकार तुम्हारा नहीं है। तुम्हारे कार्य के फलों पर तुम्हारा कोई अधिकार नहीं होना चाहिए, और न ही तुम्हें निष्क्रियता में आसक्ति होनी चाहिए।)
-          </span>
+          {displayedQuotes.map((quote, index) => (
+            <span key={index} className="mr-16 text-[#550505] text-xl text-shadow-md">
+              {quote}
+            </span>
+          ))}
         </div>
       </div>
-
+      
       {/* Keyframes for Animation */}
       <style>
         {`
           @keyframes scroll {
-            0% {
-              transform: translateX(0);
-            }
-            100% {
-              transform: translateX(-50%);
-            }
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
           }
           .animate-scroll {
-            animation: scroll 30s linear infinite; /* Slower speed */
+            animation: scroll 60s linear infinite;
           }
           .text-shadow-md {
             text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
