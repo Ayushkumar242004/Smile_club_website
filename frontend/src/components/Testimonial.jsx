@@ -46,23 +46,23 @@ export default function Testimonial() {
 			</div>
 
 			{/* Individual testimonial card */}
-			<div className='flex flex-nowrap w-[80%] scrollbar-hidden overflow-hidden mx-[10%] '>
+			<div className='flex flex-nowrap w-[80%] transform-flat scrollbar-hidden overflow-hidden mx-[10%] '>
 				{testimonial.map((item) => (
-					<div key={item.id} 
-					style={{ transform: `translateX(-${view*108.69}%)` }}
-					className="shadow-[#a1a1a1] min-w-[46%] rounded-lg shadow-md transition-transform duration-500 ease-out md:flex md:flex-row p-6 mx-[2%] my-8">
+					<div key={item.id}
+					style={{transform: `translateX(-${view * 108.69}%)`}}
+					className={`shadow-[#a1a1a1] min-w-[92%] lg:min-w-[46%] rounded-lg shadow-md transform duration-500 ease-out flex flex-row p-6 mx-[4%] lg:mx-[2%] my-8`}>
 						<div className="basis-1/3 justify-items-center rounded-full">
 							<img
 							src={item.image}
 							alt={item.name}
-							className="size-[75%] object-cover rounded-lg"
+							className=" object-center max-h-[280px] rounded-lg"
 							/>
 						</div>
 						<div className="flex flex-col basis-2/3 p-6">
-							<div className="text-[#E47474] text-lg font-bold ">{item.quote}</div>
+						<div className="text-[#E47474] text-sm lg:text-lg font-bold ">{item.quote}</div>
 							<div className='border border-[#a5a5a5] opacity-40 mt-10 mb-5'></div>
-							<div className="text-[#DB4242] text-2xl font-bold p-2">{item.name}</div>
-							<div className="text-[#767E88] text-lg font-bold pl-3">{item.role}</div>
+							<div className="text-[#DB4242] text-lg lg:text-2xl font-bold p-2">{item.name}</div>
+							<div className="text-[#767E88] text-sm lg:text-lg font-bold pl-3">{item.role}</div>
 						</div>
 					</div>
 				))}

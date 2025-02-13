@@ -6,6 +6,7 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 import '../blogs.css'
 import RecentPosts from "../components/SideComponent";
 import CardGridPage from "../components/Card";
+import Hero_blogs from "../components/Hero_blogs";
 
 export default function Blogs() {
   const [activeSection, setActiveSection] = useState("home");
@@ -34,7 +35,7 @@ export default function Blogs() {
   return (
     <div className="min-h-screen bg-black">
       
-      <Hero2 heading="Blogs" image="banner.jpg" />
+      <Hero_blogs />
 
       {/* Section Content */}
       <div className="mt-8 px-4">
