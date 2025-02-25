@@ -12,7 +12,7 @@ const videoData = [
     title: "New Hindu Festival Celebration",
     videoId: "HxulHaWC_io",
     date: "2025-02-01",
-    description:"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque magna magna, pretium ut porta id, elementum eget mauris. Phasellus quis velit varius, luctus ligula ut, finibus leo. Ut eget massa eget urna sollicitudin suscipit vel vitae purus. Donec commodo dolor in lorem dictum, vel porttitor eros dictum. Donec a mattis mi.",
+    description:"The SMILE Club proudly presents Me and My Mind, a captivating pantomime performance that delves into the intricate relationship between an individual and their inner thoughts. This show combines humor and introspection, offering audiences a unique blend of entertainment and reflection. Through expressive mime and engaging storytelling, Me and My Mind explores themes of self-awareness and personal growth, resonating with viewers on multiple levels. Join us for an unforgettable experience that not only entertains but also inspires a deeper understanding of oneself.",
   },
   {
     id: 1,

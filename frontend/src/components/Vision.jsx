@@ -53,7 +53,7 @@ export default function Vision() {
             {/* Description */}
             <div className="border-l-2 pl-4 space-y-2 border-[#E23D3D]">
               <p className="text-gray-600 text-lg">
-              We strive to ignite curiosity and promote Indian culture while fostering meaningful connections and enriching lives through our events, content, and collaborative efforts.
+              Our principles are our guiding light in crafting our vision statement,it is to celebrate and distribute the joy of the Indian culture.
               </p>
             </div>
           </div>

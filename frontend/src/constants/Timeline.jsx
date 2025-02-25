@@ -2,20 +2,20 @@
 export const content = [
     {
         id: 1,
-        title: "Title 1",
-        description: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum, eum sit? Asperiores, magnam sed nisi quos, ea voluptatum, accusantium beatae odit necessitatibus sit corrupti libero dolor veniam. Ea, labore enim. ",
-        date: "22 Jan"
+        title: "Adiparampara - A Journey Through Traditional Games 🎲🔥",
+        description: "Adiparampara is a vibrant festival that brings together the essence of India’s rich heritage through a series of exciting events, including Kridotsav, Aakriti, Kurukshetra 2.0, Rasamaya Manjari, Chakravyuh, and Vastra Mahotsav. Each event adds a unique touch to the celebration, creating an immersive experience of tradition, competition, and cultural expression. Join us as we honor the spirit of our roots through this grand festivity! 🚀🎉",
+        date: "1 March"
     },
     {
         id: 2,
-        title: "Title 2",
-        description: " Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus nobis beatae sapiente nisi tempora facilis temporibus et libero accusantium illum impedit laborum inventore porro, commodi excepturi reprehenderit voluptatem, at nihil? ",
-        date: "22 Jan"
+        title: "🌟Maha Shivaratri Celebration!🕉️",
+        description: "Join us for a divine Maha Shivaratri celebration, organized by SMILE Club, Hindi Evam Sanskrit Club, and Utkrishth Bharat Club! Experience the spiritual energy with traditional rituals, soulful music, and a night filled with devotion. Let’s come together in unity and joy to embrace the essence of Lord Shiva! 🙏✨",
+        date: "26 Jan"
     },
     {
         id: 3,
-        title: "Title 3",
-        description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus ad doloremque iste nemo a at quo ipsam non blanditiis sint, expedita delectus cupiditate. Quisquam, perferendis sed mollitia doloribus reprehenderit iusto. ",
+        title: "AYODHYA RAM PUNAH AAGMAN",
+        description: "Join us as Utkrishta Bharat and SMILE Club celebrate the Ayodhya Ram Punah Aagman Vaarshikotsav, a spiritual and cultural tribute to Lord Ram. Experience divine recitations, soulful music, and traditional performances that reflect the richness of our heritage. Let’s come together in devotion and joy!",
         date: "22 Jan"
     }
 ]

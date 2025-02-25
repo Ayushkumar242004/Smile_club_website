@@ -45,7 +45,7 @@ const EventPage = () => {
               </div>
 
               {/* author credit */}
-              <div className="text-left text-md text-[#7E4555] px-4 py-2"><span className="text-md text-[#767E9B]">By </span><span className="font-bold">{event.author}</span></div>
+              {/* <div className="text-left text-md text-[#7E4555] px-4 py-2"><span className="text-md text-[#767E9B]">By </span><span className="font-bold">{event.author}</span></div> */}
               
             </div>
           </a>

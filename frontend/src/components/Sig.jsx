@@ -3,22 +3,22 @@ import React from "react";
 const Sig = () => {
   const services = [
     {
-      title: "About Temple",
-      description: "Temple is a place where Hindu worship consectetur adipiscing elit, sed do",
+      title: "Web Development",
+      description: "Building the web, one line at a time! We design and develop dynamic, responsive websites using modern technologies.",
       icon: "num1.png",
       bgColor: "bg-[#7e4555]",
       margin: "md:mt-[2em]"
     },
     {
-      title: "Our Pandit",
-      description: "Temple is a place where Hindu worship consectetur adipiscing elit, sed do",
+      title: "Media",
+      description: "Creativity through visuals! From graphic design to video production, we bring ideas to life with stunning media content.",
       icon: "num2.png",
       bgColor: "bg-[#db4242]",
       margin: "md:mt-[-0.5em]"
     },
     {
-      title: "Prayers",
-      description: "Temple is a place where Hindu worship consectetur adipiscing elit, sed do",
+      title: "Content",
+      description: "Words that connect! We craft engaging blogs, social media posts, and website content that inform and inspire.",
       icon: "num3.png",
       bgColor: "bg-[#fff]",
       textColor: "text-[#7e4555]",

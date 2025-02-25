@@ -46,7 +46,7 @@ export default function About() {
         <div className=" lg:space-y-2 ">
           <div className="flex items-center gap-2 font-semibold text-[#8B1D42]">
             <span className="lg:text-2xl text-lg">ॐ</span>
-            <h2 className="lg:text-lg md:text-sm text-base">Celebrating Indian Culture with Joy and Pride</h2>
+            <h2 className="lg:text-lg md:text-sm text-base">स्वस्मै स्वल्पं समाजाय सर्वस्वं।</h2>
           </div>
 
           <h1 className="text-4xl lg:text-5xl font-bold text-[#E23D3D] leading-tight">
@@ -92,7 +92,7 @@ export default function About() {
               </div>
               <div>
                 <h3 className="lg:text-xl text-lg font-semibold text-[#E23D3D] mb-2">
-                Cultural Engagement
+                Our Principle
                 </h3>
                 <p className="text-gray-800 text-justify lg:text-base text-sm">
                 Through events like dramas, workshops, and competitions, we provide students the opportunity to showcase their talents and connect with Indian traditions in meaningful ways.

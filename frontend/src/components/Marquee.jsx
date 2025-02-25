@@ -1,16 +1,7 @@
 import React, { useEffect, useState } from "react";
 
 const quotes = [
-  "Do your duty, results will follow. - Bhagavad Gita",
-  "Fear is born from attachment. - Mahabharata",
-  "Truth alone triumphs. - Mundaka Upanishad",
-  "Anger leads to destruction. - Ramayana",
-  "A calm mind brings strength. - Bhagavad Gita",
-  "Time is the greatest teacher. - Mahabharata",
-  "Greed destroys wisdom. - Mahabharata",
-  "Selfless action brings peace. - Bhagavad Gita",
-  "Patience is the greatest virtue. - Ramayana",
-  "Desire is the root of suffering. - Bhagavad Gita",
+ "Exert yourself with unwavering resolve, yet maintain detachment from the result, for action surpasses inaction. The Bhagavad Gita instructs us to discharge our responsibilities with commitment, embracing the path of self-exploration through virtuous deeds."
 ];
 
 export default function Marquee() {
