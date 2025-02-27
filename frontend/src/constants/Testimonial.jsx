@@ -5,7 +5,7 @@ export const testimonial = [
     role: "Covenor",
     image: "ajinkya.jpeg",
     quote:
-        "If money help a man to do well to others, it is of some value; but if not, it is simply a mass of evil, and the sooner it is got rid of, the better.",
+        "You have the right to perform your duty, but never to the fruits of your work. Let not the rewards of action be your motive, nor let attachment to inaction consume you.",
     },
     {
     id: 2,
@@ -13,7 +13,7 @@ export const testimonial = [
     role: "Alumni",
     image: "image.png",
     quote:
-        "If money help a man to do well to others, it is of some value; but if not, it is simply a mass of evil, and the sooner it is got rid of, the better.",
+        "Three gates lead to self-destruction and hell: Lust, anger, and greed. Therefore, one must renounce these three to find true peace and righteousness.",
     },
    
 ]
