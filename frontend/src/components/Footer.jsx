@@ -48,15 +48,11 @@ const Footer = () => {
               </a>
             </li>
             <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
-              <a href="/blogs/" className="">
+              <a href="/blogs" className="">
                 Blogs
               </a>
             </li>
-            <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
-              <a href="/gallery/" className="">
-                Gallery
-              </a>
-            </li>
+           
           </ul>
         </div>
 
@@ -67,8 +63,8 @@ const Footer = () => {
           </div>
           <ul className="text-gray-200 lg:text-lg text-base ">
             <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">
-              <a href="/AboutUs/" className="">
-                About Us
+              <a href="/teams" className="">
+                Team
               </a>
             </li>
             <li className="mb-2 transition-transform transform hover:scale-110 hover:text-gray-300">

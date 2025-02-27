@@ -1,21 +1,21 @@
-import { FaFacebookF, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
 import '../blogs.css'
 const RecentPosts = () => {
   const posts = [
     {
       image: "./post.jpg",
-      title: "As we've all discovered by now, the world can change",
-      date: "May 20, 2024",
+      title: "Shri Krishna's Divine Protection: The Miraculous Preservation of Uttarā's Legacy",
+      date: "Feb 25, 2025",
     },
     {
       image: "./post.jpg",
-      title: "As we've all discovered by now, the world can change",
-      date: "May 20, 2024",
+      title: "The Noble Pact: A Feathered Tale of Sacrifice and Compassion",
+      date: "Feb 15, 2025",
     },
     {
       image: "./post.jpg",
-      title: "As we've all discovered by now, the world can change",
-      date: "May 20, 2024",
+      title: "Unyielding Devotion: The Transformation of Āruṇi into Uddālaka",
+      date: "Feb 1, 2024",
     },
   ];
 
@@ -43,36 +43,43 @@ const RecentPosts = () => {
   );
 };
 
+
 const SocialMedia = () => {
     return (
         <div className="mt-6 text-center border-t pt-4">
-        <h2 className="blog-red text-xl font-bold mb-3">Never Miss Out</h2>
-        <div className="flex justify-center space-x-4">
-          <FaFacebookF className="blog-red text-2xl cursor-pointer" />
-          <FaLinkedinIn className="blog-red text-2xl cursor-pointer" />
-          <FaTwitter className="blog-red text-2xl cursor-pointer" />
-          <FaYoutube className="blog-red text-2xl cursor-pointer" />
+            <h2 className="blog-red text-xl font-bold mb-3">Never Miss Out</h2>
+            <div className="flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/company/smile-club-nitk/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedinIn className="blog-red text-2xl cursor-pointer" />
+                </a>
+                <a href="https://www.youtube.com/@SMILEClub_NITK" target="_blank" rel="noopener noreferrer">
+                    <FaYoutube className="blog-red text-2xl cursor-pointer" />
+                </a>
+                <a href="https://www.instagram.com/smile._.club_nitk/" target="_blank" rel="noopener noreferrer">
+                    <FaInstagram className="blog-red text-2xl cursor-pointer" />
+                </a>
+            </div>
         </div>
-      </div>
-    )
+    );
 }
+
 
 const Courses = () => {
     const posts = [
         {
           image: "./post.jpg",
-          title: "As we've all discovered by now, the world can change",
-          date: "May 20, 2024",
+          title: "Bhagwad Gita 6.43 to 6.47",
+          date: "Sept 30, 2024",
         },
         {
           image: "./post.jpg",
-          title: "As we've all discovered by now, the world can change",
-          date: "May 20, 2024",
+          title: "Bhagwad Gita 6.39 to 6.43",
+          date: "Sept 15, 2024",
         },
         {
           image: "./post.jpg",
-          title: "As we've all discovered by now, the world can change",
-          date: "May 20, 2024",
+          title: "Bhagwad Gita 6.34 to 6.38",
+          date: "Sept 1, 2024",
         },
       ];
     return(

@@ -11,7 +11,7 @@ export default function Home() {
     <div className="">
       <Navbar/>
       <Hero />
-      <Numbers />
+      {/* <Numbers /> */}
       <Sig />
       <Timeline />
       <Marquee />

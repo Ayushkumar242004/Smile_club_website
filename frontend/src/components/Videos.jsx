@@ -8,7 +8,7 @@ import { Play, X } from "lucide-react"
 
 const videoData = [
   {
-    id: 5,
+    id: 9,
     title: "New Hindu Festival Celebration",
     videoId: "HxulHaWC_io",
     date: "2025-02-01",
@@ -16,26 +16,50 @@ const videoData = [
   },
   {
     id: 1,
-    title: "Lorem Ipsum",
-    videoId: "HxulHaWC_io",
+    title: "Bhagwad Gita 6.43 to 6.47",
+    videoId: "LHk7EwNP86M", // Updated with correct video ID
     date: "2024-08-15",
   },
   {
     id: 2,
-    title: "Lorem Ipsum",
-    videoId: "HxulHaWC_io",
+    title: "Bhagwad Gita 6.39 to 6.43",
+    videoId: "F0LCxtmwl_Q", // Updated with correct video ID
     date: "2024-07-20",
   },
   {
     id: 3,
-    title: "Lorem Ipsum",
-    videoId: "HxulHaWC_io",
+    title: "Bhagwad Gita 6.34 to 6.38",
+    videoId: "IWF0XGVDfpk", // Updated with correct video ID
     date: "2024-06-10",
   },
   {
     id: 4,
-    title: "Lorem Ipsum",
-    videoId: "HxulHaWC_io",
+    title: "Bhagwad Gita 6.33 to 6.34",
+    videoId: "2PLKmIJJLoM", // Updated with correct video ID
+    date: "2024-05-05",
+  },
+  {
+    id: 5,
+    title: "Bhagwad Gita 6.30 to 6.32",
+    videoId: "eB9sFuvL8Sg", // Updated with correct video ID
+    date: "2024-05-05",
+  },
+  {
+    id: 6,
+    title: "Bhagwad Gita 6.24 to 6.29",
+    videoId: "zCAMapVuH9E", // Updated with correct video ID
+    date: "2024-05-05",
+  },
+  {
+    id: 7,
+    title: "Bhagwad Gita 6.18 to 6.23",
+    videoId: "J0we43LJcl8", // Updated with correct video ID
+    date: "2024-05-05",
+  },
+  {
+    id: 8,
+    title: "The Pantomime Show",
+    videoId: "HxulHaWC_io", // Updated with correct video ID
     date: "2024-05-05",
   },
 ]
