@@ -5,7 +5,7 @@ import Home from "./Home";
 import { motion, useMotionValue, useSpring } from "framer-motion";
 import '../blogs.css'
 import RecentPosts from "../components/SideComponent";
-import CardGridPage from "../components/Card";
+import CardGridPage from "../components/BlogsCard";
 import Hero_blogs from "../components/Hero_blogs";
 
 export default function Blogs() {

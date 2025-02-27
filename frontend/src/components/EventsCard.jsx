@@ -8,7 +8,7 @@ const EventPage = () => {
         {events.map((event) => (
           <a
             key={event.id}
-            href={event.link}
+            href={`/event/${event.id}`} // Link to the event page
             className="shadow-lg overflow-hidden transition-opacity group"
             target="_blank"
             rel="noopener noreferrer"
@@ -25,10 +25,10 @@ const EventPage = () => {
             {/* Cateogarey and Date */}
             <div className="p-6 pt-4 text-center">
               <div className="flex flex-row justify-start items-center gap-4 pb-4">
-                <div className="flex items-center font-bold gap-1">
+                {/* <div className="flex items-center font-bold gap-1">
                   <span className="text-[#7E4555] text-sm">ॐ</span>
-                  <span className="text-[#DB4242] font-medium text-sm sm:text-md">{event.category}</span> {/* Category */}
-                </div>
+                  <span className="text-[#DB4242] font-medium text-sm sm:text-md">{event.category}</span> {/* Category /
+                </div> */}
                 <div className="flex items-center gap-1">
                   <span><CalendarIcon className="h-4 w-4 " color="#7E4555" /></span>
                   <span className="font-semibold text-sm md:text-md text-[#DB4242]">{event.date}</span> {/* Date */}
@@ -39,7 +39,7 @@ const EventPage = () => {
               <div className="text-left font-bold text-lg sm:text-2xl pl-2 text-[#DB4242]">{event.title}</div>
 
               {/* Description */}
-              <div className="text-left font-medium text-sm sm:text-md text-[#DB4242] pl-5">
+              <div className="line-clamp-3 text-left font-medium text-sm sm:text-md text-[#DB4242] mt-4 pl-5">
                 <span className="mx-5"></span>
                 <span>{event.description}</span>
               </div>
