@@ -12,7 +12,7 @@ export default function Timeline() {
             <div className="text-start mb-16 lg:px-28 md:px-16 sm:px-24 px-14">
                 
                 <p className="uppercase text-[#8B1D42] md:text-2xl text-xl">ॐ</p>
-                <h2 className="lg:text-6xl text-4xl font-bold text-[#c52f2f]">Timeline</h2>
+                <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-[#c52f2f]">Timeline</h2>
                 <a href="/events" className="text-sm text-gray-600 hover:text-[#c52f2f] flex items-center lg:px-32 px-9 mt-2 ">
                     View All Events →
                 </a>
@@ -32,7 +32,7 @@ export default function Timeline() {
                             onHoverEnd={() => setHover(0)}
                             whileHover={{ scale: 1.15 }}
                             transition={{ duration: 0.7 }}
-                            className={`font-bold text-[#E23D3D] text-3xl ${(content.id % 2) === 0 ? "justify-self-start" : "md:justify-self-end justify-self-start"}`}
+                            className={`font-bold text-[#E23D3D] text-1xl sm:text-3xl ${(content.id % 2) === 0 ? "justify-self-start" : "md:justify-self-end justify-self-start"}`}
                         >
                             {content.title}
                         </motion.div>
