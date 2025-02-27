@@ -3,7 +3,7 @@ import React from "react";
 const Sig = () => {
   const services = [
     {
-      title: "Web Development",
+      title: "Web Dev",
       description: "Building the web, one line at a time! We design and develop dynamic, responsive websites using modern technologies.",
       icon: "num1.png",
       bgColor: "bg-[#7e4555]",
