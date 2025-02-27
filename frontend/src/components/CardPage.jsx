@@ -1,12 +1,14 @@
 import {React, useState, useEffect} from 'react';
+import { useParams } from 'react-router-dom';
 import Hero2 from './Hero2.jsx';
 import {events} from '.././constants/EventCardPage.jsx';
 import { blogs } from '../constants/BlogCardPage.jsx';
 import {FaCheck, FaInstagram } from 'react-icons/fa';
 
-function CardPage({id=3,card=events}) {
+function CardPage({card=events}) {
 
   const [view,setView] = useState(0);
+  const { id } = useParams();
   
     const handleNext = () => {
       setView(view + 1);
@@ -25,7 +27,7 @@ function CardPage({id=3,card=events}) {
   
   return (
     <>
-    <Hero2 heading={card[id-1].title} /> {/* Pass the event title to the Hero component */}
+    <Hero2 heading={card[id-1].title || "Title"} /> {/* Pass the event title to the Hero component */}
     <div className='flex md:flex-row flex-col py-10 gap-[4%] md:px-20 px-6'>
         <div className='basis-[68%] rounded-lg shadow-md border border-gray-200 p-4'>
 
@@ -49,7 +51,7 @@ function CardPage({id=3,card=events}) {
           </div>
 
           {/* Display the event related points */}
-          <div className="mb-4 px-8">
+          {/* <div className="mb-4 px-8">
             <h2 className="lg:text-2xl text-lg font-extrabold text-[#DB4242] mb-2">{card[id-1].points.title}</h2>
             {card[id-1].points.points.map((item, index) => (
               <div>
@@ -59,17 +61,17 @@ function CardPage({id=3,card=events}) {
                 </div>
               </div>
             ))}
-          </div>
+          </div> */}
 
           {/* Display the event tags */}
-          <div className="my-8 mb-4 px-8">
+          {/* <div className="my-8 mb-4 px-8">
             {card[id-1].tags.map((tag, index) => (
               <button key={index} className="">
               <span className="inline-block bg-[#EFEFEF] text-[#DB4242] hover:text-white hover:bg-[#7E4555] px-4 py-1 text-sm font-semibold rounded-full mr-2 mb-2">{tag}</span>
               </button>
             ))}
-          </div>
-        </div>
+          </div> */}
+        </div> 
 
         <div className='basis-[28%]'>
           {/* Event Information */}
@@ -85,10 +87,10 @@ function CardPage({id=3,card=events}) {
                 <span className="text-[#79818B]">{card[id-1].time}</span>
                 </div>
                 <div className="flex justify-between">
-                <span className="font-medium text-[#767E88]">Event Category:</span>
-                <span className="text-[#79818B]">{card[id-1].category}</span>
+                <span className="font-medium text-[#767E88]">Place:</span>
+                <span className="text-[#79818B]">{card[id-1].place}</span>
                 </div>
-                <div className="flex justify-between">
+                {/* <div className="flex justify-between">
                 <span className="font-medium text-[#767E88]">Organizer:</span>
                 <span className="text-[#79818B]">{card[id-1].organizer}</span>
                 </div>
@@ -99,7 +101,7 @@ function CardPage({id=3,card=events}) {
                 <div className="flex justify-between">
                 <span className="font-medium text-[#767E88]">Email:</span>
                 <span className="text-[#79818B]">{card[id-1].email}</span>
-                </div>
+                </div> */}
             </div>
           </div>
 
