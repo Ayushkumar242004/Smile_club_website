@@ -25,7 +25,13 @@ export const blogs = [
             title: "Should I Believe in Rebirth?",
             points: ["People ask questions related to Hinduism","We never believe in reborn","People ask questions related to Hinduism", "We never believe in reborn"]
         },
-        tags: ["Hinduism", "Temple", "Faith"]
+        tags: ["Hinduism", "Temple", "Faith"],
+        date: "25 September, 2018",
+        time: "(8:00 am - 9:00 am)",
+        category: "Temple",
+        organizer: "Event Planer",
+        phone: "+02 1565 1236",
+        email: "supportmail@gmail.com",
         },
         {
             id: 2,
@@ -53,7 +59,13 @@ export const blogs = [
                 title: "Should I Believe in Rebirth?",
                 points: ["People ask questions related to Hinduism","We never believe in reborn","People ask questions related to Hinduism", "We never believe in reborn"]
             },
-            tags: ["Hinduism", "Temple", "Faith"]
+            tags: ["Hinduism", "Temple", "Faith"],
+            date: "25 September, 2018",
+            time: "(8:00 am - 9:00 am)",
+            category: "Temple",
+            organizer: "Event Planer",
+            phone: "+02 1565 1236",
+            email: "supportmail@gmail.com",
             },
             {
                 id: 3,
@@ -81,7 +93,13 @@ export const blogs = [
                     title: "Should I Believe in Rebirth?",
                     points: ["People ask questions related to Hinduism","We never believe in reborn","People ask questions related to Hinduism", "We never believe in reborn"]
                 },
-                tags: ["Hinduism", "Temple", "Faith"]
+                tags: ["Hinduism", "Temple", "Faith"],
+                date: "25 September, 2018",
+                time: "(8:00 am - 9:00 am)",
+                category: "Temple",
+                organizer: "Event Planer",
+                phone: "+02 1565 1236",
+                email: "supportmail@gmail.com",
                 },
     
 ];
