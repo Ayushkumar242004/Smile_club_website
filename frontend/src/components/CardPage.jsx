@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import Hero2 from './Hero2.jsx';
 import {events} from '.././constants/EventCardPage.jsx';
 import { blogs } from '../constants/BlogCardPage.jsx';
-import {FaCheck, FaInstagram } from 'react-icons/fa';
+import {FaCheck, FaInstagram, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 function CardPage({card=events}) {
 
@@ -50,27 +50,7 @@ function CardPage({card=events}) {
             ))}
           </div>
 
-          {/* Display the event related points */}
-          {/* <div className="mb-4 px-8">
-            <h2 className="lg:text-2xl text-lg font-extrabold text-[#DB4242] mb-2">{card[id-1].points.title}</h2>
-            {card[id-1].points.points.map((item, index) => (
-              <div>
-                <div key={index} className="mb-4"></div>
-                <div className="flex items-center space-x-3">
-                  <span><FaCheck color='#7E4555' /></span><h6 className="text-md lg:text-lg text-[#DE6342] font-semibold mb-2">{item}</h6>
-                </div>
-              </div>
-            ))}
-          </div> */}
-
-          {/* Display the event tags */}
-          {/* <div className="my-8 mb-4 px-8">
-            {card[id-1].tags.map((tag, index) => (
-              <button key={index} className="">
-              <span className="inline-block bg-[#EFEFEF] text-[#DB4242] hover:text-white hover:bg-[#7E4555] px-4 py-1 text-sm font-semibold rounded-full mr-2 mb-2">{tag}</span>
-              </button>
-            ))}
-          </div> */}
+        
         </div> 
 
         <div className='basis-[28%]'>
@@ -90,18 +70,7 @@ function CardPage({card=events}) {
                 <span className="font-medium text-[#767E88]">Place:</span>
                 <span className="text-[#79818B]">{card[id-1].place}</span>
                 </div>
-                {/* <div className="flex justify-between">
-                <span className="font-medium text-[#767E88]">Organizer:</span>
-                <span className="text-[#79818B]">{card[id-1].organizer}</span>
-                </div>
-                <div className="flex justify-between">
-                <span className="font-medium text-[#767E88]">Phone:</span>
-                <span className="text-[#79818B]">{card[id-1].phone}</span>
-                </div>
-                <div className="flex justify-between">
-                <span className="font-medium text-[#767E88]">Email:</span>
-                <span className="text-[#79818B]">{card[id-1].email}</span>
-                </div> */}
+               
             </div>
           </div>
 
@@ -112,10 +81,22 @@ function CardPage({card=events}) {
             </h2>
             <div className="flex justify-center space-x-4">
               <a
-                href="https://www.instagram.com/smile._.club_nitk?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
+                href="https://www.instagram.com/smile._.club_nitk/"
                 className="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full text-red-600 hover:bg-red-100"
               >
-                <FaInstagram color='#DB4242' />
+                <FaInstagram color="#DB4242" />
+              </a>
+              <a
+                href="https://www.linkedin.com/company/smile-club-nitk/"
+                className="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full text-red-600 hover:bg-red-100"
+              >
+                <FaLinkedin color="#DB4242" />
+              </a>
+              <a
+                href="https://www.youtube.com/@SMILEClub_NITK"
+                className="w-10 h-10 flex items-center justify-center bg-gray-100 rounded-full text-red-600 hover:bg-red-100"
+              >
+                <FaYoutube color="#DB4242" />
               </a>
             </div>
           </div>

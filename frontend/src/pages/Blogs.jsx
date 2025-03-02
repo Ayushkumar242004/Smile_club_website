@@ -8,6 +8,9 @@ import RecentPosts from "../components/SideComponent";
 import CardGridPage from "../components/BlogsCard";
 import Hero_blogs from "../components/Hero_blogs";
 
+
+
+
 export default function Blogs() {
   const [activeSection, setActiveSection] = useState("home");
   const mouseX = useMotionValue(0);

@@ -8,6 +8,7 @@ import Events from "./pages/Events";
 import Teams from "./pages/Team";
 import Blogs from "./pages/Blogs";
 import CardPage from "./components/CardPage";
+import BlogPage from "./components/BlogPage";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function MainLayout() {
             <Route path="/events" element={<Events />} />
             <Route path="/teams" element={<Teams />} /> 
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/blog/:id" element={<BlogPage />} />
             <Route path="/event/:id" element={<CardPage />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

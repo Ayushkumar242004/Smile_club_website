@@ -1,9 +1,12 @@
 import React from "react";
 import { CalendarIcon } from "lucide-react"
 import { events } from "../constants/EventsCard.jsx";
+import  Navbar  from "./Navbar.jsx";
 
 const EventPage = () => {
   return (
+    <>
+     
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full py-8 px-[18%] md:px-[7%]" >
         {events.map((event) => (
           <a
@@ -44,6 +47,16 @@ const EventPage = () => {
                 <span>{event.description}</span>
               </div>
 
+              <div className="flex flex-wrap gap-2 mt-4 pl-5">
+                {event.tags.map((tag, index) => (
+                  <span
+                    key={index}
+                    className="bg-[#DB4242] text-white text-xs sm:text-sm px-3 py-1 rounded-full"
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
               {/* author credit */}
               {/* <div className="text-left text-md text-[#7E4555] px-4 py-2"><span className="text-md text-[#767E9B]">By </span><span className="font-bold">{event.author}</span></div> */}
               
@@ -51,6 +64,7 @@ const EventPage = () => {
           </a>
         ))}
       </div>
+      </>
   );
 };
 

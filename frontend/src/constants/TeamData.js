@@ -40,13 +40,13 @@ export const teamData = [
       },
       {
         name: "Anvesha Agarwal",
-        photo: "/team/anvesha.jpeg",
+        photo: "/team/anvesha.jpg",
         linkedin: "https://www.linkedin.com/in/anveshaagrawal18/",
         category: "Web Team"
       },
     {
       name: "Yashwanth R",
-      photo: "/team/yashwanth.jpeg",
+      photo: "/team/yashwanth.jpg",
       linkedin: "https://www.linkedin.com/in/yashwanth-r-bb437128a",
       category: "Web Team"
     },
@@ -107,13 +107,7 @@ export const teamData = [
       linkedin: "https://www.linkedin.com/in/shravan-kulkarni-966586288/",
       category: "Core Team"
     },
-    //alumni
-    {
-      name: "Ajinkya Prabhu",
-      photo: "/team/ajinkya.jpeg",
-      linkedin: "https://linkedin.com/in/johndoe",
-      category: "Alumni"
-    },
    
-    // Add more members as needed
+   
+    
   ];

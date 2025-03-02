@@ -6,7 +6,7 @@ const OurTeam = () => {
   const categories = [
     { title: "Our Core Team", key: "Core Team" },
     { title: "Our Web Team", key: "Web Team" },
-    { title: "Our Alumni", key: "Alumni" },
+    
   ];
 
   return (

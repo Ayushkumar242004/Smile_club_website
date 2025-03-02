@@ -1,16 +1,20 @@
-import { React, useState } from "react";
+import { React, useState, useEffect } from "react";
 import { content } from "../constants/Timeline";
 import { Circle } from "lucide-react";
 import { motion } from "framer-motion"; // Import motion from framer-motion
 
 export default function Timeline() {
-
     const [hover, setHover] = useState(0);
+    const [hasAnimated, setHasAnimated] = useState(false);
+
+    useEffect(() => {
+        // Reset the animation state on page refresh
+        setHasAnimated(false);
+    }, []);
 
     return (
         <div className="justify-center my-16">
             <div className="text-start mb-16 lg:px-28 md:px-16 sm:px-28 px-14">
-                
                 <p className="uppercase text-[#8B1D42] md:text-2xl text-xl">ॐ</p>
                 <h2 className="text-3xl sm:text-4xl lg:text-6xl font-bold text-[#c52f2f]">Timeline</h2>
                 <a href="/events" className="text-sm text-gray-600 hover:text-[#c52f2f] flex items-center lg:px-32 px-9 mt-2 ">
@@ -19,7 +23,6 @@ export default function Timeline() {
             </div>
             {content.map((content) => (
                 <div className="w-full px-8 flex flex-row justify-center" key={content.id}>
-                    
                     {/* Title and Description */}
                     <motion.div
                         initial={{ opacity: 0 }}
@@ -46,13 +49,12 @@ export default function Timeline() {
                     
                     {/* Create Vertical Line */}
                     <div className="relative basis-20px self-auto order-2">
-                        {/* Add whileInView to trigger animation when the component enters the viewport */}
                         <motion.div
-                            initial={{ height: 0, opacity: 0 }}
+                            initial={{ height: 0, opacity: 1 }}
                             whileInView={{ height: "100%", opacity: 1 }} // Trigger animation when in view
                             transition={{ delay: (content.id - 1) * 0.75, duration: 1 }}
-                            className={`absolute h-full ${content.id === 1 ? "top-11" : ""} w-0 left-1/2 border border-red-200 z-0`}
-                            viewport={{ once: false, amount: 0.5 }} // Trigger animation every time it's 50% in view
+                            className={`absolute h-full ${content.id === 1 ? "top-11" : ""} w-1 left-1/2 bg-[#E23D3D] z-0`}
+                            viewport={{ once: true, amount: 0.5 }} // Trigger animation only once
                         ></motion.div>
                         <motion.div
                             onHoverStart={() => setHover(content.id)}
