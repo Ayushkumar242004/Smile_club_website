@@ -35,7 +35,7 @@ export default function Timeline() {
                             onHoverEnd={() => setHover(0)}
                             whileHover={{ scale: 1.1 }}
                             transition={{ duration: 0.7 }}
-                            className={`font-bold text-[#E23D3D] text-1xl sm:text-2xl ${(content.id % 2) === 0 ? "justify-self-start" : "md:justify-self-end justify-self-start"}`}
+                            className={`font-bold text-[#E23D3D] text-1xl mb-3 sm:text-2xl ${(content.id % 2) === 0 ? "justify-self-start" : "md:justify-self-end justify-self-start"}`}
                         >
                             {content.title}
                         </motion.div>
@@ -76,8 +76,8 @@ export default function Timeline() {
                         animate={{ opacity: 1 }}
                         className={`basis-1/4 md:basis-2/5 p-8 order-1 ${(content.id % 2) === 0 ? "md:order-1 justify-items-end" : "md:order-3 md:justify-items-start justify-items-end"}`}
                     >
-                        <div className={`font-bold text-[#E23D3D] text-xl`}>2025</div>
-                        <div className={` text-gray-800 text-m`}>{content.date}</div>
+                        <div className={`font-bold text-[#E23D3D] flex ${(content.id % 2) === 0 ? " justify-end" : " md:justify-start justify-end"} text-xl`}>2025</div>
+                        <div className={` text-gray-800 text-m flex ${(content.id % 2) === 0 ? " justify-end" : " md:justify-start justify-end"}`}>{content.date}</div>
                     </motion.div>
                 </div>
             ))}
