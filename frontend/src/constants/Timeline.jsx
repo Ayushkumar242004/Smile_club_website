@@ -2,8 +2,8 @@
 export const content = [
     {
         id: 1,
-        title: "ADIPARAMPARA: KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Indian Games! 🎲🏏",
-        description: "Get ready to experience the nostalgia and excitement of traditional Indian games in KRIDOTSAV! Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! ",
+        title: "ADIPARAMPARA: KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Bharatiya Games! 🎲🏏",
+        description: "Get ready to experience the nostalgia and excitement of traditional Bharatiya games in KRIDOTSAV! Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! ",
         date: "1 March"
     },
     {
