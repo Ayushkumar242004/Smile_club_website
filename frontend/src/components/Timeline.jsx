@@ -23,7 +23,7 @@ export default function Timeline() {
             </div>
 
             {/* Scrollable Timeline Container */}
-            <div className="relative overflow-auto max-h-[80vh]">
+            <div className="relative overflow-auto max-h-[80vh] pl-4 pr-2">
                 {content.map((content) => (
                     <div className="w-full px-8 flex flex-row justify-center" key={content.id}>
                         {/* Title and Description */}
@@ -84,9 +84,30 @@ export default function Timeline() {
                         </motion.div>
                     </div>
                 ))}
-
-             
             </div>
+            
+            <style jsx>{`
+                /* Custom scrollbar styles */
+                .relative {
+                    
+                    scrollbar-color: #e23d3d transparent;
+                }
+
+                /* For Webkit browsers (Chrome, Safari) */
+                .relative::-webkit-scrollbar {
+                    width: 10px;
+                    margin-right: 5em; /* Shift scrollbar to the left */
+                }
+
+                .relative::-webkit-scrollbar-thumb {
+                    background-color: #e23d3d;
+                    border-radius: 10px;
+                }
+
+                .relative::-webkit-scrollbar-track {
+                    background-color: transparent;
+                }
+            `}</style>
         </div>
     );
 }

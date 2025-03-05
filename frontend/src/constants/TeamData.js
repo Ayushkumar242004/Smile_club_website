@@ -59,6 +59,27 @@ export const teamData = [
       category: "Core Team"
     },
     {
+      name: "Kaveri G. H",
+      designation: "Joint Convenor",
+      photo: "/team/kaveri.jpeg",
+      linkedin: "https://www.linkedin.com/in/kaveri-g-h-05778722a/",
+      category: "Core Team"
+    },
+    {
+      name: "Harsh Narayankar",
+      designation: "Secretary",
+      photo: "/team/harsh.jpeg",
+      linkedin: "https://www.linkedin.com/in/harshnarayankar/",
+      category: "Core Team"
+    },
+    {
+      name: "Sheethal Pai",
+      designation: "Content Head",
+      photo: "/team/sheethal.jpeg",
+      linkedin: "https://www.linkedin.com/in/sheethal-pai-520375327/",
+      category: "Core Team"
+    },
+    {
         name: "Krishna Tulsyan",
         designation: "Web Head",
         photo: "/team/krishna.jpeg",
@@ -102,7 +123,7 @@ export const teamData = [
     },
     {
       name: "Raj Solanki ",
-      designation: "Instagram Coordinator",
+      designation: "Media Coordinator",
       photo: "/team/raj.jpeg",
       linkedin: "https://www.linkedin.com/in/raj-solanki-62a5b22a6",
       category: "Core Team"
@@ -112,6 +133,20 @@ export const teamData = [
       designation: "Publicity Member",
       photo: "/team/shravan.jpeg",
       linkedin: "https://www.linkedin.com/in/shravan-kulkarni-966586288/",
+      category: "Core Team"
+    },
+    {
+      name: "Utkarsh Kumar",
+      designation: "Content Coordinator",
+      photo: "/team/utkarsh.jpg",
+      linkedin: "",
+      category: "Core Team"
+    },
+    {
+      name: "Anant Kamat",
+      designation: "Media Coordinator",
+      photo: "/team/anant.jpeg",
+      linkedin: "https://www.linkedin.com/in/anant-kamat-a19813275/",
       category: "Core Team"
     },
    
