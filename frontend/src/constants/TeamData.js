@@ -73,10 +73,10 @@ export const teamData = [
       category: "Core Team"
     },
     {
-      name: "Nishadeep H ",
-      designation: "Event & Publicity Coordinator ",
-      photo: "/team/nishadeep.jpeg",
-      linkedin: "https://www.linkedin.com/in/nishadeeph?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+      name: "Yash Kumar Poddar",
+      designation: "Event Head ",
+      photo: "/team/yash.jpeg",
+      linkedin: "https://www.linkedin.com/in/yashkumar114/",
       category: "Core Team"
     },
     {
@@ -84,6 +84,13 @@ export const teamData = [
       designation: "Publicity Head",
       photo: "/team/abhinaya.jpg",
       linkedin: "https://www.linkedin.com/in/abhinaya-srinivas-77b52225a/",
+      category: "Core Team"
+    },
+    {
+      name: "Nishadeep H ",
+      designation: "Event & Publicity Coordinator ",
+      photo: "/team/nishadeep.jpeg",
+      linkedin: "https://www.linkedin.com/in/nishadeeph?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
       category: "Core Team"
     },
     {
