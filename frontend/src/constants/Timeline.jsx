@@ -2,45 +2,45 @@
 export const content = [
     {
         id: 1,
-        title: "ADIPARAMPARA: KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Indian Games! 🎲🏏",
-        description: "Get ready to experience the nostalgia and excitement of traditional Indian games in KRIDOTSAV! Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! ",
+        title: "AdiParampara: Kridotsav – Experience the Joy of Traditional Indian Games! 🎲🏏",
+        description: "Experience the nostalgia and excitement of KRIDOTSAV, where traditional Indian games come to life! Enjoy classics like Chausar, Pittu, Kanche, Lattu, and more. Let the thrill begin! ",
         date: "1 March"
     },
     {
         id: 2,
-        title: "ADIPARAMPARA: AAKRITI: Unleash Your Creativity at the Painting Event of the Year! 🎨✨",
-        description: "Get ready to bring your imagination to life at AAKRITI, where the world of colors and creativity collide in a beautiful celebration of art. This exciting event is not just about painting; it's about expressing your innermost thoughts, feelings, and dreams through vibrant strokes of the brush.",
+        title: "AdiParampara: Aakriti – Let Your Imagination Paint the Canvas! 🎨✨",
+        description: "Unleash your creativity at AAKRITI, where colors and imagination come alive! Express your thoughts, feelings, and dreams through the art of painting.",
         date: "1 March"
     },
     {
         id: 3,
-        title: "ADIPARAMPARA: KURUKSHETRA 2.0 – The Ultimate Quiz on Ramayana & Mahabharata!  📜",
-        description: "Step into the realm of ancient wisdom and epic battles with AdiParampara: Kurukshetra 2.0, where the legendary tales of the Ramayana and Mahabharata come to life in a thrilling quiz experience! Whether you’re a devoted follower of these epics or someone eager to explore their depth, this event offers a unique opportunity to test your knowledge and connect with the rich cultural heritage of India.",
+        title: "AdiParampara: Kurukshetra 2.0 – Test Your Wisdom on the Epics! 📜⚔",
+        description: "Enter the world of ancient wisdom and epic battles at AdiParampara: Kurukshetra 2.0! Test your knowledge of the Ramayana and Mahabharata in this thrilling quiz and connect with India’s rich heritage. ",
         date: "1 March"
     },
     {
         id: 4,
         title: "ADIPARAMPARA: Rasamaya Manjar – A Bouquet of Emotions & Aesthetics! 🍲🌸",
-        description: "This grand one-day event is a celebration of food, fun, and the beauty of shared moments. Rasamaya Manjar is more than just an event; it’s a heartfelt experience that weaves together emotions, aesthetics, and unforgettable memories.",
+        description: "Celebrate the joy of food, fun, and togetherness at Rasamaya Manjar! Experience a day filled with emotions, aesthetics, and unforgettable memories. ",
         date: "1 March"
     },
     {
         id: 5,
         title: "ADIPARAMPARA: Smile Chakravyuh – The Ultimate Cultural Treasure Hunt! 🎯🔍",
-        description: "Prepare to channel your inner Arjuna and embark on an exhilarating adventure with AdiParampara: Smile Chakravyuh. This one-of-a-kind cultural treasure hunt is designed to test your wit, strategy, and teamwork. Inspired by the legendary Chakravyuh from the Mahabharata, this event challenges you to navigate through a maze of clues, decode hidden messages, and emerge victorious.",
+        description: "Unleash your inner Arjuna in AdiParampara: Smile Chakravyuh! This epic cultural treasure hunt tests your wit, strategy, and teamwork as you navigate clues and conquer the challenge. ",
         date: "1 March"
     },
     {
         id: 6,
         title: "ADIPARAMPARA: Vastra Mahotsav – Celebrate Tradition in Style! 👘",
-        description: "Step into the spotlight and embrace the elegance of tradition at AdiParampara: Vastra Mahotsav. This grand one-day event is a celebration of cultural heritage, where you get to showcase your traditional attire and shine in your finest. Whether you’re a fashion enthusiast or simply love the beauty of traditional wear, Vastra Mahotsav is your chance to be crowned the next Vastra Shobhita or Vastra Samrat",
+        description: "Grace the stage with tradition at AdiParampara: Vastra Mahotsav! Showcase your finest attire and celebrate cultural heritage for a chance to be crowned Vastra Shobhita or Vastra Samrat. ",
         date: "1 March"
     },
     {
         id: 7,
         title: "SMILE BHARATH: Maha Shivratri Celebration – A Night of Devotion and Blessings! 🕉🌙",
-        description: "Join us for a sacred and serene evening as the SMILE BHARATH club presents the Maha Shivratri Celebration, a special event dedicated to honoring Lord Shiva. Maha Shivratri, the Great Night of Shiva is a time for prayer, reflection, and seeking divine blessings. Let us come together to offer our heartfelt prayers to Lord Shiva, seeking his blessings for peace, prosperity, and happiness in our lives.",
-        date: "1 March"
+        description: "Join SMILE BHARATH for a sacred Maha Shivratri Celebration, honoring Lord Shiva with prayers, reflection, and divine blessings for peace and prosperity. ",
+        date: "26 Feb"
     }
 
 ]
