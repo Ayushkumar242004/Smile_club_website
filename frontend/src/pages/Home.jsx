@@ -5,15 +5,17 @@ import Numbers from "../components/Numbers";
 import Timeline from "../components/Timeline";
 import Marquee from "../components/Marquee";
 import Navbar from "../components/Navbar";
+import QuoteSection from "../components/QuoteSection"; 
 
 export default function Home() {
   return (
-    <div className="">
-      <Navbar/>
+    <div>
+      <Navbar />
       <Hero />
       {/* <Numbers /> */}
       <Sig />
       <Timeline />
+      <QuoteSection /> 
       <Marquee />
     </div>
   );
