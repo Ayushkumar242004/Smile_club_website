@@ -9,8 +9,8 @@ import QuoteSection from "../components/QuoteSection";
 
 export default function Home() {
   return (
-    <div>
-      <Navbar />
+    <div className="">
+      <Navbar/>
       <Hero />
       {/* <Numbers /> */}
       <Sig />
