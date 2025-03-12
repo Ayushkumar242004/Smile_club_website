@@ -35,7 +35,7 @@ export default function Hero() {
   return (
     <>
       {/* Hero Section */}
-      <div className="relative w-full lg:h-[43em] md:h-[38em] h-[28em] sm:h-[33em] bg-gradient-to-b from-maroon-900 via-maroon-800 to-maroon-700 text-white overflow-hidden">
+      {/* <div className="relative w-full lg:h-[43em] md:h-[38em] h-[28em] sm:h-[33em] bg-gradient-to-b from-maroon-900 via-maroon-800 to-maroon-700 text-white overflow-hidden">
         <motion.div
           className="absolute inset-0 bg-fixed opacity-75"
           style={{
@@ -64,7 +64,7 @@ export default function Hero() {
           </motion.p>
         </div>
 
-        {/* Flame */}
+        {/* Flame 
         <motion.div
           className="flame relative bg-fixed opacity-75 lg:top-[12%] xl:top-[18%] md:top-[9.5%] sm:left-[30.6%] left-[28.5%] text-[0.5em] md:text-[0.9em] lg:text-[1.2em] sm:top-[25%] top-[15%] sm:w-[1em] md:h-[3em] w-[.01em] h-[2.5em]"
           style={{
@@ -81,8 +81,43 @@ export default function Hero() {
           }}
         >
           <div className="inner-flame w-[0.6em] h-[2em]"></div>
-        </motion.div>
+        </motion.div> 
+      </div> */}
+
+    <div className="relative w-full h-screen flex items-center justify-center text-center">
+      {/* Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className="absolute top-0 left-0 w-full h-full object-cover"
+      >
+        <source src="/Hero/bells.mp4" type="video/mp4" />
+      </video>
+
+      {/* Hero Content */}
+      <div className='h-full w-full flex items-center justify-center text-center absolute bg-[rgba(96,9,9,0.4)] '>
+        <div className="relative z-10  rounded-3xl text-white px-10">
+          <motion.h1
+            className="sm:text-6xl md:text-8xl mt-2 text-4xl font-extrabold lg:mb-4 md:mb-2 mb-0 tracking-wide leading-tight font-serif text-amber-400 drop-shadow-[0_4px_20px_rgba(255,255,255,0.8)]"
+            initial={{ opacity: 0, y: -50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+          >
+            SMILE CLUB
+          </motion.h1>
+          <motion.p
+            className="text-sm md:text-2xl max-w-2xl font-light tracking-wide leading-relaxed text-amber-200 font-sans drop-shadow-[0_2px_10px_rgba(255,255,255,0.6)] mb-4"
+            initial={{ opacity: 0, y: -30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+          >
+            SCIENCE AND TECHNOLOGY FOR MODERN INDIA LIFE ENLIGHTENMENT
+          </motion.p>
+        </div>
       </div>
+    </div>
 
       {/* Button Below Hero */}
       <motion.div
@@ -98,6 +133,7 @@ export default function Hero() {
           Our Vision
         </button>
       </motion.div>
+      
 
       {/* Render the active section */}
       <div>

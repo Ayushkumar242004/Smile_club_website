@@ -1,31 +1,16 @@
-import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter, FaYoutube } from "react-icons/fa";
+import React from 'react';
+import { FaInstagram, FaLinkedinIn, FaYoutube } from "react-icons/fa";
 import '../blogs.css'
+import {posts} from '../constants/SideComponent.jsx';
 const RecentPosts = () => {
-  const posts = [
-    {
-      image: "./post.jpg",
-      title: "Shri Krishna's Divine Protection: The Miraculous Preservation of Uttarā's Legacy",
-      date: "Feb 25, 2025",
-    },
-    {
-      image: "./post.jpg",
-      title: "The Noble Pact: A Feathered Tale of Sacrifice and Compassion",
-      date: "Feb 15, 2025",
-    },
-    {
-      image: "./post.jpg",
-      title: "Unyielding Devotion: The Transformation of Āruṇi into Uddālaka",
-      date: "Feb 1, 2024",
-    },
-  ];
 
   return (
     <div className="post max-w-lg mx-auto p-6 bg-white shadow-lg rounded-xl">
       <h2 className="blog-text text-xl font-bold border-b pb-2 mb-4">Recent Posts</h2>
       <div className="space-y-4">
         {posts.map((post, index) => (
-          <div key={index} className="flex items-center space-x-4">
-            <img src={post.image} alt="Post" className="w-14 h-14 rounded-full object-cover" />
+          <a href={post.link} key={index} className="flex items-center space-x-4">
+            <img src={post.image} alt="Post" className="w-28 h-28 object-cover" />
             <div>
               <h3 className="blog-text-cs font-semibold text-sm">{post.title}</h3>
               <p className="blog-text text-xs flex items-center space-x-1">
@@ -33,7 +18,7 @@ const RecentPosts = () => {
                 <span className="blog-text-black">{post.date}</span>
               </p>
             </div>
-          </div>
+          </a>
         ))}
       </div>
 
