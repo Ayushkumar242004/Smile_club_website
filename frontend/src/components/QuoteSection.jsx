@@ -6,12 +6,12 @@ const QuoteSection = () => {
 
   useEffect(() => {
     const updateQuote = () => {
-      const daysSinceEpoch = Math.floor(Date.now() / (1000 * 10));
+      const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 3));
       setQuoteIndex(daysSinceEpoch % quotes.length);
     };
 
     updateQuote();
-    const interval = setInterval(updateQuote, 1000);
+    const interval = setInterval(updateQuote, 1000 * 60 * 60 );
 
     return () => clearInterval(interval);
   }, []);
