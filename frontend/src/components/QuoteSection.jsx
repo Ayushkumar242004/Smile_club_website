@@ -6,12 +6,12 @@ const QuoteSection = () => {
 
   useEffect(() => {
     const updateQuote = () => {
-      const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 3));
+      const daysSinceEpoch = Math.floor(Date.now() / (1000 * 10));
       setQuoteIndex(daysSinceEpoch % quotes.length);
     };
 
     updateQuote();
-    const interval = setInterval(updateQuote, 1000 * 60 * 60);
+    const interval = setInterval(updateQuote, 1000);
 
     return () => clearInterval(interval);
   }, []);
@@ -21,7 +21,7 @@ const QuoteSection = () => {
       <style>
         {`
           .quote-section {
-              min-height: 60vh;
+              height: 100vh;
               width: 100%;
               background-color: rgba(226, 21, 21, 0.7);
               display: flex;
@@ -63,18 +63,18 @@ const QuoteSection = () => {
 
           @media (max-width: 768px) {
               .quote-section {
-                  min-height: 50vh;
-                  padding: 15px;
+                  height: 80vh;
+                  padding: 40px 20px;
               }
-              
+
               .quote-text {
-                  font-size: 22px;
-                  width: 85%;
-                  line-height: 35px;
+                  font-size: 24px;
+                  width: 80%;
+                  line-height: 38px;
               }
 
               .quote-section img {
-                  max-width: 12%;
+                  max-width: 10%;
               }
 
               .quote-left {
@@ -90,28 +90,29 @@ const QuoteSection = () => {
 
           @media (max-width: 480px) {
               .quote-section {
-                  min-height: 40vh;
-                  padding: 10px;
+                  height: 65vh;
+                  min-height: 50vh;
+                  padding: 30px 15px;
               }
 
               .quote-text {
-                  font-size: 18px;
+                  font-size: 20px;
                   width: 90%;
                   line-height: 30px;
               }
 
               .quote-section img {
-                  max-width: 15%;
+                  max-width: 12%;
               }
 
               .quote-left {
                   left: 2vw;
-                  top: 12%;
+                  top: 10%;
               }
 
               .quote-right {
                   right: 2vw;
-                  bottom: 12%;
+                  bottom: 10%;
               }
           }
         `}
