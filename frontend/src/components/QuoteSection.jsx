@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
+import quotes from "./Quotes";
 
 const QuoteSection = () => {
+  const [quoteIndex, setQuoteIndex] = useState(0);
+
+  useEffect(() => {
+    const updateQuote = () => {
+      const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 3));
+      setQuoteIndex(daysSinceEpoch % quotes.length);
+    };
+
+    updateQuote();
+    const interval = setInterval(updateQuote, 1000 * 60 * 60);
+
+    return () => clearInterval(interval);
+  }, []);
+
   return (
     <div className="quote-section">
       <style>
         {`
           .quote-section {
-              height: 100vh;
+              min-height: 60vh;
               width: 100%;
               background-color: rgba(226, 21, 21, 0.7);
               display: flex;
@@ -31,9 +46,9 @@ const QuoteSection = () => {
 
           .quote-section img {
               position: absolute;
-              max-width: 8%; /* Ensures images are responsive */
+              max-width: 8%;
               height: auto;
-              min-width: 30px; /* Prevents images from becoming too small */
+              min-width: 30px;
           }
 
           .quote-left {
@@ -46,8 +61,12 @@ const QuoteSection = () => {
               bottom: 20%;
           }
 
-          /* Responsive Design */
           @media (max-width: 768px) {
+              .quote-section {
+                  min-height: 50vh;
+                  padding: 15px;
+              }
+              
               .quote-text {
                   font-size: 22px;
                   width: 85%;
@@ -70,8 +89,13 @@ const QuoteSection = () => {
           }
 
           @media (max-width: 480px) {
+              .quote-section {
+                  min-height: 40vh;
+                  padding: 10px;
+              }
+
               .quote-text {
-                  font-size: 16px;
+                  font-size: 18px;
                   width: 90%;
                   line-height: 30px;
               }
@@ -97,10 +121,7 @@ const QuoteSection = () => {
         src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-left.svg"
         alt=""
       />
-      <p className="quote-text">
-        You have the right to work, but never to the fruit of work. Let not the
-        fruits of action be your motive, nor let your attachment be to inaction.
-      </p>
+      <p className="quote-text">{quotes[quoteIndex]}</p>
       <img
         className="quote-right"
         src="https://eiwgew27fhz.exactdn.com/wp-content/themes/puttosaurus/img/quote-right.svg"
