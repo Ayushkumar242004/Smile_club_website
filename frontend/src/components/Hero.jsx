@@ -93,7 +93,7 @@ export default function Hero() {
         playsInline
         className="absolute top-0 left-0 w-full h-full object-cover"
       >
-        <source src="/Hero/bells.mp4" type="video/mp4" />
+        <source src="/Hero/shiva_vid.mp4" type="video/mp4" />
       </video>
 
       {/* Hero Content */}
@@ -115,6 +115,29 @@ export default function Hero() {
           >
             SCIENCE AND TECHNOLOGY FOR MODERN INDIA LIFE ENLIGHTENMENT
           </motion.p>
+
+          <div className="flex justify-center items-center space-x-6 mt-6">
+  <button 
+    onClick={() => window.open("https://www.instagram.com/smile._.club_nitk/", "_blank", "noopener,noreferrer")} 
+    className="text-white text-xl transition duration-300 hover:text-maroon-200"
+  >
+    <i className="fa-brands fa-instagram"></i>
+  </button>
+  
+  <button 
+    onClick={() => window.open("https://www.linkedin.com/company/smile-club-nitk/", "_blank", "noopener,noreferrer")} 
+    className="text-white text-xl transition duration-300 hover:text-maroon-200"
+  >
+    <i className="fa-brands fa-linkedin-in"></i>
+  </button>
+  
+  <button 
+    onClick={() => window.open("https://youtube.com/@SMILEClub_NITK?si=qk-v-oJZi8M7igKn", "_blank", "noopener,noreferrer")} 
+    className="text-white text-xl transition duration-300 hover:text-maroon-200"
+  >
+    <i className="fa-brands fa-youtube"></i>
+  </button>
+</div>
         </div>
       </div>
     </div>

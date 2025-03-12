@@ -1,17 +1,17 @@
 import React, { useState, useEffect } from "react";
-import quotes from "./Quotes";
+import quotes from "../constants/Quotes";
 
 const QuoteSection = () => {
   const [quoteIndex, setQuoteIndex] = useState(0);
 
   useEffect(() => {
     const updateQuote = () => {
-      const daysSinceEpoch = Math.floor(Date.now() / (1000 * 60 * 60 * 24 * 3));
-      setQuoteIndex(daysSinceEpoch % quotes.length);
+      const minutesSinceEpoch = Math.floor(Date.now() / (1000 * 60)); // Change every minute
+      setQuoteIndex(minutesSinceEpoch % quotes.length);
     };
 
     updateQuote();
-    const interval = setInterval(updateQuote, 1000 * 60 * 60 );
+    const interval = setInterval(updateQuote, 1000 * 60); // Update every minute
 
     return () => clearInterval(interval);
   }, []);
@@ -23,7 +23,7 @@ const QuoteSection = () => {
           .quote-section {
               height: 100vh;
               width: 100%;
-              background-color: rgba(226, 21, 21, 0.7);
+              background: url('/bg4.jpg') no-repeat center center/cover;
               display: flex;
               align-items: center;
               justify-content: center;

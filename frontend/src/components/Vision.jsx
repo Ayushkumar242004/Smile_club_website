@@ -16,7 +16,7 @@ export default function Vision() {
               />
             </div>
             <div className="absolute -bottom-6 xs:-bottom-6 sm:-bottom-12 -right-8 sm:-right-12 lg:-right-12 w-20 h-20 xs:w-20 xs:h-20 sm:w-40 sm:h-40 lg:w-40 lg:h-40 overflow-hidden rounded-lg shadow-md">
-              <imgc
+              <img
                 src="/vision_images/temple.jpg" // Update with your actual image path
                 alt="Temple structure"
                 className="w-full h-full object-cover rounded-lg"

@@ -34,11 +34,11 @@ export const blogs = [
         qna: [
             {
                 question: "What was King Nriga known for?",
-                answer: "King Nriga was known for his righteousness and generosity. He had a daily vow of donating thousands of cows to Brahmins as part of his charitable nature."
+                answer: "King Nriga was known for his righteousness and generosity. He had a daily vow of donating thousands of cows to people as part of his charitable nature."
             },
             {
                 question: "What mistake did King Nriga make?",
-                answer: "King Nriga accidentally donated the same cow twice to two different Brahmins. This led to a dispute between the Brahmins, who cursed him to be reborn as a chameleon for his oversight."
+                answer: "King Nriga accidentally donated the same cow twice to two different people. This led to a dispute between the people, who cursed him to be reborn as a chameleon for his oversight."
             },
             {
                 question: "How did King Nriga attain liberation?",
@@ -46,7 +46,7 @@ export const blogs = [
             },
             {
                 question: "What lesson did Shrī Krishna impart to the Yadavas?",
-                answer: "Shrī Krishna warned the Yadavas never to steal the property of Brahmins, no matter how small. He emphasized that a Brahmin's curse is severe and can destroy entire clans, while the offense of stealing from Brahmins has no remedy."
+                answer: "Shrī Krishna warned the Yadavas never to steal the property of people, no matter how small. He emphasized that a people's curse is severe and can destroy entire clans, while the offense of stealing from people has no remedy."
             }
         ],
         tags: ["Mahābhārata", "King Nriga", "Charity", "Krishna", "Liberation", "Dharma"],
@@ -108,7 +108,7 @@ export const blogs = [
             },
             {
                 "question": "What is the ultimate fate of the insect?",
-                "answer": "Vedavyāsa informs the insect that, due to its virtues in serving its parents, it will soon be reborn as a Brahmin and ultimately attain salvation."
+                "answer": "Vedavyāsa informs the insect that, due to its virtues in serving its parents, it will soon be reborn as a people and ultimately attain salvation."
             }
         ],
         "tags": ["Mahābhārata", "Vedavyāsa", "Dharma", "Rebirth"],
