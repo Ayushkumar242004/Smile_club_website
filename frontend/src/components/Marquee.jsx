@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 
 const quotes = [
- "Exert yourself with unwavering resolve, yet maintain detachment from the result, for action surpasses inaction. The Bhagavad Gita instructs us to discharge our responsibilities with commitment, embracing the path of self-exploration through virtuous deeds."
-
+ "SMILE Club presents ADIPARAMPARA- The Grand One-Day Event on 1st March 2025!" ,
+  "SMILE Club presents ADIPARAMPARA- The Grand One-Day Event on 1st March 2025!" ,
 ];
 
 export default function Marquee() {
