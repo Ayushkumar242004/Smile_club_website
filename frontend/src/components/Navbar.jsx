@@ -32,26 +32,41 @@ const Navbar = () => {
 
   return (
     <header
-      className={`fixed w-full top-0 z-50 transition-all duration-300 pr-8 ${
+      className={`fixed w-full top-0 z-50 transition-all duration-300 ${
         isScrolled ? "bg-maroon-800 bg-opacity-90 shadow-lg" : "bg-transparent"
       }`}
     >
-      <div className="container mx-auto px-4 flex justify-between items-center py-3">
-        <img src="/logo.png" alt="Smile Club" className="w-12 h-12" />
+      <div className="w-full mx-auto px-4 md:px-12 flex justify-between items-center py-3">
+        <a href="/" className="flex">
+          <img 
+            src="/logo.png" 
+            alt="Smile Club" 
+            className="w-12 h-12 md:w-[72px] md:h-[72px] drop-shadow-[0_0_4px_rgba(255,255,255,0.4)]" 
+          />
+        </a>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex space-x-8">
-          <button onClick={() => handleNavigation("/")} className="text-white hover:text-maroon-200 font-medium uppercase transition duration-300">
+          <button onClick={() => handleNavigation("/")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
             Home
           </button>
-          <button onClick={() => handleNavigation("/events")} className="text-white hover:text-maroon-200 font-medium uppercase transition duration-300">
+          <button onClick={() => handleNavigation("/events")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
             Events
           </button>
-          <button onClick={() => handleNavigation("/teams")} className="text-white hover:text-maroon-200 font-medium uppercase transition duration-300">
+          <button onClick={() => handleNavigation("/teams")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
             Team
           </button>
-          <button onClick={() => handleNavigation("/blogs")} className="text-white hover:text-maroon-200 font-medium uppercase transition duration-300">
+          <button onClick={() => handleNavigation("/blogs")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
             Blogs
+          </button>
+          <button onClick={() => window.open("https://www.instagram.com/smile._.club_nitk/", "_blank", "noopener,noreferrer")} className="text-white text-xl transition duration-300 hover:text-maroon-200">
+            <i className="fa-brands fa-instagram"></i>
+          </button>
+          <button onClick={() => window.open("https://www.linkedin.com/company/smile-club-nitk/", "_blank", "noopener,noreferrer")} className="text-white text-xl transition duration-300 hover:text-maroon-200">
+            <i className="fa-brands fa-linkedin-in"></i>
+          </button>
+          <button onClick={() => window.open("https://youtube.com/@SMILEClub_NITK?si=qk-v-oJZi8M7igKn", "_blank", "noopener,noreferrer")} className="text-white text-xl transition duration-300 hover:text-maroon-200">
+            <i className="fa-brands fa-youtube"></i>
           </button>
         </nav>
 
@@ -91,6 +106,17 @@ const Navbar = () => {
         <button onClick={() => handleNavigation("/blogs")} className="text-white text-2xl hover:text-maroon-200 font-medium uppercase transition duration-300">
           Blogs
         </button>
+        <div className="flex items-center space-x-4">
+          <button onClick={() => window.open("https://www.instagram.com/smile._.club_nitk/", "_blank", "noopener,noreferrer")} className="text-white text-2xl transition duration-300 hover:text-maroon-200">
+            <i className="fa-brands fa-instagram"></i>
+          </button>
+          <button onClick={() => window.open("https://www.linkedin.com/company/smile-club-nitk/", "_blank", "noopener,noreferrer")} className="text-white text-2xl transition duration-300 hover:text-maroon-200">
+            <i className="fa-brands fa-linkedin-in"></i>
+          </button>
+          <button onClick={() => window.open("https://youtube.com/@SMILEClub_NITK?si=qk-v-oJZi8M7igKn", "_blank", "noopener,noreferrer")} className="text-white text-2xl transition duration-300 hover:text-maroon-200">
+            <i className="fa-brands fa-youtube"></i>
+          </button>
+        </div>
       </div>
     </header>
   );
