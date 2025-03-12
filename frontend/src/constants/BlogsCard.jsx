@@ -11,7 +11,7 @@ export const blogs = [
         image: "/blog/mahabharat2.jpeg",
         title: "Stories from Mahābhārata",
         description: "Once upon a time, there was a righteous and charitable king named Nriga. Known for his generosity, King Nriga had a daily vow of donating thousands of cows to Brahmins.",
-        tags: ["King Nriga", "Generosity", "Charity", "Brahmins", "Dharma"],
+        tags: ["King Nriga", "Generosity", "Charity", "Dharma"],
     },
     {
         id: 3,

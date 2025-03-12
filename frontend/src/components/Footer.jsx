@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="text-white lg:text-lg md:text-base text-sm">
             <p>
-              Experience the joy of Indian culture with SMILE Club, where tradition meets enthusiasm!
+              Experience the joy of Bharatiya culture with SMILE Club, where tradition meets enthusiasm!
             </p>
           </div>
         </div>
@@ -114,7 +114,7 @@ const Footer = () => {
 
       {/* Copyright */}
       <div className="text-center text-white sm:text-md text-[0.8em] py-3 sm:px-0 px-3 text-wrap bg-[#550b0bac]">
-        <p>&copy; 2025 All rights reserved | Made with ❤️ by Smile Club</p>
+        <p>&copy; 2025 All rights reserved | Made with ❤️ by SMILE Club</p>
       </div>
     </footer>
   );

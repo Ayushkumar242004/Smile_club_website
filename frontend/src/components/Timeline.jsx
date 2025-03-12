@@ -1,16 +1,37 @@
 import { React, useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom"; // Import useNavigate
 import { content } from "../constants/Timeline";
 import { Circle } from "lucide-react";
-import { motion } from "framer-motion"; // Import motion from framer-motion
+import { motion } from "framer-motion";
 
 export default function Timeline() {
     const [hover, setHover] = useState(0);
+    const navigate = useNavigate(); // Initialize useNavigate
     const [hasAnimated, setHasAnimated] = useState(false);
 
-    useEffect(() => {
-        // Reset the animation state on page refresh
-        setHasAnimated(false);
-    }, []);
+useEffect(() => {
+    if (!hasAnimated) {
+        setHasAnimated(true);
+    }
+}, [hasAnimated]);
+
+
+    // Mapping each event to its respective route
+    const eventRoutes = {
+        1: "/event/4",
+        2: "/event/5",
+        3: "/event/6",
+        4: "/event/8",
+        5: "/event/7",
+        6: "/event/9",
+        7: "/event/2",
+    };
+
+    const handleClick = (id) => {
+        if (eventRoutes[id]) {
+            navigate(eventRoutes[id]); // Navigate to the correct page
+        }
+    };
 
     return (
         <div className="justify-center my-16">
@@ -31,11 +52,12 @@ export default function Timeline() {
                         className={`basis-3/5 md:basis-2/5 p-8 ${(content.id % 2) === 0 ? "order-3" : "md:order-1 order-3"}`}
                     >
                         <motion.div
+                            onClick={() => handleClick(content.id)} // Add onClick function
                             onHoverStart={() => setHover(content.id)}
                             onHoverEnd={() => setHover(0)}
                             whileHover={{ scale: 1.1 }}
                             transition={{ duration: 0.7 }}
-                            className={`font-bold text-[#E23D3D] text-1xl sm:text-2xl ${(content.id % 2) === 0 ? "justify-self-start" : "md:justify-self-end justify-self-start"}`}
+                            className={`font-bold text-[#E23D3D] text-1xl sm:text-2xl cursor-pointer ${(content.id % 2) === 0 ? "justify-self-start" : "md:justify-self-end justify-self-start"}`}
                         >
                             {content.title}
                         </motion.div>
@@ -46,15 +68,15 @@ export default function Timeline() {
                             {content.description}
                         </motion.div>
                     </motion.div>
-                    
+
                     {/* Create Vertical Line */}
                     <div className="relative basis-20px self-auto order-2">
                         <motion.div
                             initial={{ height: 0, opacity: 1 }}
-                            whileInView={{ height: "100%", opacity: 1 }} // Trigger animation when in view
+                            whileInView={{ height: "100%", opacity: 1 }}
                             transition={{ delay: (content.id - 1) * 0.75, duration: 1 }}
                             className={`absolute h-full ${content.id === 1 ? "top-11" : ""} w-1 left-1/2 bg-[#E23D3D] z-0`}
-                            viewport={{ once: true, amount: 0.5 }} // Trigger animation only once
+                            viewport={{ once: true, amount: 0.5 }}
                         ></motion.div>
                         <motion.div
                             onHoverStart={() => setHover(content.id)}

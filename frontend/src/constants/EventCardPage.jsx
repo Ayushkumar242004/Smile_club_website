@@ -130,16 +130,16 @@ export const events = [
         },
     {
         id: 4,
-        title:"KRIDOTSAV" ,
+        title:"ADIPARAMPARA: KRIDOTSAV" ,
         images: ["/EventCard/kridotsav.png"],
         qna:[
             {
-                question:"KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Indian Games! 🎲🏏⚡",
-                answer:"Get ready to experience the nostalgia and excitement of traditional Indian games in KRIDOTSAV! This incredible event celebrates the classic household games that have been passed down through generations, bringing a unique blend of fun, strategy, and competition. If you're someone who loves history, tradition, or just wants to relive your childhood memories, this is the event for you!"
+                question:"KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Bharatiya Games! 🎲🏏⚡",
+                answer:"Get ready to experience the nostalgia and excitement of traditional Bharatiya games in KRIDOTSAV! This incredible event celebrates the classic household games that have been passed down through generations, bringing a unique blend of fun, strategy, and competition. If you're someone who loves history, tradition, or just wants to relive your childhood memories, this is the event for you!"
             },
             {
                 question:"🎯 Event Highlights",
-                answer:"Classic Indian Games: Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! These games aren't just about luck, they require strategy, focus, and skill. Whether you're a pro or a beginner, there's something for everyone. Exciting Competitions: Take on other players in a fun, competitive environment. Test your skills and prove you have what it takes to outsmart your opponents in these age-old games."
+                answer:"Classic Bharatiya Games: Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! These games aren't just about luck, they require strategy, focus, and skill. Whether you're a pro or a beginner, there's something for everyone. Exciting Competitions: Take on other players in a fun, competitive environment. Test your skills and prove you have what it takes to outsmart your opponents in these age-old games."
             },
             {
                 question:"Nostalgic Vibes",
@@ -176,7 +176,7 @@ export const events = [
     },
     {
         id: 5,
-        title:"AAKRITI" ,
+        title:"ADIPARAMPARA: AAKRITI" ,
         images: ["/EventCard/aakriti.png"],
         qna:[
             {
@@ -218,7 +218,7 @@ export const events = [
     },
     {
         id: 6,
-        title:"KURUKSHETRA 2.0" ,
+        title:"ADIPARAMPARA: KURUKSHETRA 2.0" ,
         images: ["/EventCard/kurukshetra.png"],
         qna:[
             {
@@ -265,7 +265,7 @@ export const events = [
     },
     {
         id: 7,
-        title:"CHAKRAVIYUH" ,
+        title:"ADIPARAMPARA: CHAKRAVIYUH" ,
         images: ["/EventCard/chakraviyuh.png"],
         qna:[
             {
@@ -312,7 +312,7 @@ export const events = [
     },
     {
         id: 8,
-        title:"RASAMAYA MANJARI" ,
+        title:"ADIPARAMPARA: RASAMAYA MANJARI" ,
         images: ["/EventCard/Rasamaya.png"],
         qna:[
             {
@@ -355,7 +355,7 @@ export const events = [
     },
     {
         id: 9,
-        title:"VASTRA MAHOTSAV" ,
+        title:"ADIPARAMPARA: VASTRA MAHOTSAV" ,
         images: ["/EventCard/vastra.png"],
         qna:[
             {
