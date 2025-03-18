@@ -1,11 +1,11 @@
 import React from "react";
 import OurTeam from "../components/OurTeam";
-import Hero_Team from "../components/Hero_Team";
+import Hero2 from "../components/Hero2";
 
 export default function Team() {
   return (
     <div className="bg-red-200 min-h-screen">
-      <Hero_Team />
+      <Hero2 title="Meet the Team." vid="/Hero/shiva2.mp4"/>
       <OurTeam />
     </div>
   );

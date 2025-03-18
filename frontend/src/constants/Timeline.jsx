@@ -2,14 +2,8 @@
 export const content = [
     {
         id: 1,
-        title: "SMILE BHARATH: Maha Shivratri Celebration – A Night of Devotion and Blessings! 🕉🌙",
-        description: "Join us for a sacred and serene evening as the SMILE BHARATH club presents the Maha Shivratri Celebration, a special event dedicated to honoring Lord Shiva. Maha Shivratri, the Great Night of Shiva is a time for prayer, reflection, and seeking divine blessings. Let us come together to offer our heartfelt prayers to Lord Shiva, seeking his blessings for peace, prosperity, and happiness in our lives.",
-        date: "26 February"
-    },
-    {
-        id: 2,
-        title: "ADIPARAMPARA: KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Indian Games! 🎲🏏",
-        description: "Get ready to experience the nostalgia and excitement of traditional Indian games in KRIDOTSAV! Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! ",
+        title: "ADIPARAMPARA: KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Bharatiya Games! 🎲🏏",
+        description: "Get ready to experience the nostalgia and excitement of traditional Bharatiya games in KRIDOTSAV! Immerse yourself in the thrill of games like Chausar (an ancient dice game), Pittu (a traditional outdoor game with a ball), Kanche (marbles), Lattu (spinning top), and many more! ",
         date: "1 March"
     },
     {

@@ -28,7 +28,7 @@ export const events = [
     },
     {
     id: 4,
-    title: "KRIDOTSAV",
+    title: "ADIPARAMPARA: KRIDOTSAV",
     image: "/EventCard/kridotsav.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
@@ -37,7 +37,7 @@ export const events = [
     },
     {
     id: 5,
-    title: "AAKRITI",
+    title: "ADIPARAMPARA: AAKRITI",
     image: "/EventCard/aakriti.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
@@ -46,7 +46,7 @@ export const events = [
     },
     {
     id: 6,
-    title: "KURUKSHETRA 2.0",
+    title: "ADIPARAMPARA: KURUKSHETRA 2.0",
     image: "/EventCard/kurukshetra.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
@@ -55,7 +55,7 @@ export const events = [
     },
     {
     id: 7,
-    title: "CHAKRAVIYUH",
+    title: "ADIPARAMPARA: CHAKRAVIYUH",
     image: "/EventCard/chakraviyuh.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
@@ -64,7 +64,7 @@ export const events = [
     },
     {
     id: 8,
-    title: "RASAMAYA MANJARI",
+    title: "ADIPARAMPARA: RASAMAYA MANJARI",
     image: "/EventCard/Rasamaya.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
@@ -73,7 +73,7 @@ export const events = [
     },
     {
     id: 9,
-    title: "VASTRA MAHOTSAV",
+    title: "ADIPARAMPARA: VASTRA MAHOTSAV",
     image: "/EventCard/vastra.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",

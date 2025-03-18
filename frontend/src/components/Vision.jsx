@@ -34,13 +34,13 @@ export default function Vision() {
           {/* Right side - Content */}
           <div className="space-y-6 md:space-y-8">
             <div>
-              <span className="font-semibold text-lg text-[#8B1D42]">ॐ Celebrating and sharing the joy of Indian culture</span>
+              <span className="font-semibold text-lg text-[#8B1D42]">ॐ Celebrating and sharing the joy of Bharatiya culture</span>
               <h1 className="text-4xl md:text-5xl font-bold mt-2 text-[#E23D3D]">Our Vision</h1>
             </div>
 
             {/* Features grid */}
             <div className="grid grid-cols-2 gap-4">
-              {["Guiding Principles", "Cultural Celebration", "Social Impact", "Inspire Curiosity"].map((feature, index) => (
+              {["Ethics & Integrity", "Cultural Celebration", "Social Impact", "Inspire Curiosity"].map((feature, index) => (
                 <div key={index} className="flex items-center gap-2">
                   <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gray-200 flex items-center justify-center">
                     <Check className="w-6 h-6 text-gray-800" />
@@ -53,7 +53,7 @@ export default function Vision() {
             {/* Description */}
             <div className="border-l-2 pl-4 space-y-2 border-[#E23D3D]">
               <p className="text-gray-600 text-lg">
-              Our principles are our guiding light in crafting our vision statement,it is to celebrate and distribute the joy of the Indian culture.
+              Our principles are our guiding light in crafting our vision statement,it is to celebrate and distribute the joy of the Bharatiya culture.
               </p>
             </div>
           </div>

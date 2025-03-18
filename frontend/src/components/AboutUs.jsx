@@ -64,7 +64,7 @@ export default function About() {
 
             {/* Text */}
             <p className="text-[#000] lg:text-base text-justify text-sm leading-relaxed lg:mt-3 mt-3 my-4"> 
-            SMILE stands for Ancient Science and Technology for Modern India, Life, and Enlightenment. We are a student initiative spreading the richness of Indian culture through engaging programs. 
+            SMILE stands for Science and Technology for Modern India, Life, and Enlightenment. We are a student initiative spreading the richness of Bharatiya culture through engaging programs. 
           </p>
           </div>
 
@@ -80,7 +80,7 @@ export default function About() {
                 Our Approach
                 </h3>
                 <p className="text-gray-800 text-justify lg:text-base text-sm">
-                We offer a blend of scientific, cultural, and traditional programs that present Indian culture in a way that resonates with both modern and traditional mindsets.
+                We offer a blend of scientific, cultural, and traditional programs that present Bharatiya culture in a way that resonates with both modern and traditional mindsets.
                 </p>
               </div>
             </div>
@@ -95,7 +95,7 @@ export default function About() {
                 Our Principle
                 </h3>
                 <p className="text-gray-800 text-justify lg:text-base text-sm">
-                Through events like dramas, workshops, and competitions, we provide students the opportunity to showcase their talents and connect with Indian traditions in meaningful ways.
+                Through events like dramas, workshops, and competitions, we provide students the opportunity to showcase their talents and connect with Bharatiya traditions in meaningful ways.
                 </p>
               </div>
             </div>

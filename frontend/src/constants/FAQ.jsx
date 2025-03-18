@@ -3,7 +3,7 @@ export const faqs = [
         id: 1,
         question: "What is SMILE CLUB?",
         answer:
-            "SMILE stands for SCIENCE AND TECHNOLOGY FOR MODERN INDIAN LIFE AND ENLIGHTENMENT. It is an initiative aimed at spreading awareness of Indian culture and spirituality while integrating science and technology. The club helps people experience the rich traditions and diversity of India, fostering both inner and outer well-being through its various activities.",
+            "SMILE stands for SCIENCE AND TECHNOLOGY FOR MODERN INDIAN LIFE AND ENLIGHTENMENT. It is an initiative aimed at spreading awareness of Bharatiya culture and spirituality while integrating science and technology. The club helps people experience the rich traditions and diversity of India, fostering both inner and outer well-being through its various activities.",
     },
     {
         id: 2,
