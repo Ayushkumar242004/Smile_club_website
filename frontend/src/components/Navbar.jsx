@@ -53,6 +53,9 @@ const Navbar = () => {
           <button onClick={() => handleNavigation("/events")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
             Events
           </button>
+          <button onClick={() => handleNavigation("/gallery")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
+            Gallery
+          </button>
           <button onClick={() => handleNavigation("/teams")} className="text-white text-lg hover:text-maroon-200 font-medium uppercase transition duration-300">
             Team
           </button>
@@ -91,6 +94,9 @@ const Navbar = () => {
         </button>
         <button onClick={() => handleNavigation("/events")} className="text-white text-2xl hover:text-maroon-200 font-medium uppercase transition duration-300">
           Events
+        </button>
+        <button onClick={() => handleNavigation("/gallery")} className="text-white text-2xl hover:text-maroon-200 font-medium uppercase transition duration-300">
+          Gallery
         </button>
         <button onClick={() => handleNavigation("/teams")} className="text-white text-2xl hover:text-maroon-200 font-medium uppercase transition duration-300">
           Team
