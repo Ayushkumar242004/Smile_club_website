@@ -3,64 +3,14 @@
 import { useState, useEffect } from "react"
 import { Play, X } from "lucide-react"
 
-// Add new videos at the beginning of this array
-// For youtube videoId --> Eg: for the link https://youtu.be/dQw4w9WgXcQ?si=DF7JKo8-kvVt9eZn , the videoId is "dQw4w9WgXcQ"
-
 const videoData = [
   {
     id: 9,
     title: "New Hindu Festival Celebration",
     videoId: "HxulHaWC_io",
     date: "2025-02-01",
-    description:"The SMILE Club proudly presents Me and My Mind, a captivating pantomime performance that delves into the intricate relationship between an individual and their inner thoughts. This show combines humor and introspection, offering audiences a unique blend of entertainment and reflection. Through expressive mime and engaging storytelling, Me and My Mind explores themes of self-awareness and personal growth, resonating with viewers on multiple levels. Join us for an unforgettable experience that not only entertains but also inspires a deeper understanding of oneself.",
-  },
-  {
-    id: 1,
-    title: "Bhagwad Gita 6.43 to 6.47",
-    videoId: "LHk7EwNP86M", // Updated with correct video ID
-    date: "2024-08-15",
-  },
-  {
-    id: 2,
-    title: "Bhagwad Gita 6.39 to 6.43",
-    videoId: "F0LCxtmwl_Q", // Updated with correct video ID
-    date: "2024-07-20",
-  },
-  {
-    id: 3,
-    title: "Bhagwad Gita 6.34 to 6.38",
-    videoId: "IWF0XGVDfpk", // Updated with correct video ID
-    date: "2024-06-10",
-  },
-  {
-    id: 4,
-    title: "Bhagwad Gita 6.33 to 6.34",
-    videoId: "2PLKmIJJLoM", // Updated with correct video ID
-    date: "2024-05-05",
-  },
-  {
-    id: 5,
-    title: "Bhagwad Gita 6.30 to 6.32",
-    videoId: "eB9sFuvL8Sg", // Updated with correct video ID
-    date: "2024-05-05",
-  },
-  {
-    id: 6,
-    title: "Bhagwad Gita 6.24 to 6.29",
-    videoId: "zCAMapVuH9E", // Updated with correct video ID
-    date: "2024-05-05",
-  },
-  {
-    id: 7,
-    title: "Bhagwad Gita 6.18 to 6.23",
-    videoId: "J0we43LJcl8", // Updated with correct video ID
-    date: "2024-05-05",
-  },
-  {
-    id: 8,
-    title: "The Pantomime Show",
-    videoId: "HxulHaWC_io", // Updated with correct video ID
-    date: "2024-05-05",
+    description:
+      "The SMILE Club proudly presents Me and My Mind, a captivating pantomime performance that delves into the intricate relationship between an individual and their inner thoughts.",
   },
 ]
 
@@ -88,25 +38,15 @@ const Videos = () => {
   const [thumbnails, setThumbnails] = useState({})
 
   useEffect(() => {
-    const fetchThumbnails = async () => {
-      const newThumbnails = {}
-      for (const video of videoData) {
-        newThumbnails[video.id] = `https://img.youtube.com/vi/${video.videoId}/maxresdefault.jpg`
-      }
-      setThumbnails(newThumbnails)
-    }
-
-    fetchThumbnails()
+    setThumbnails({
+      [videoData[0].id]: `https://img.youtube.com/vi/${videoData[0].videoId}/maxresdefault.jpg`,
+    })
   }, [])
 
-  // Sort videos by date and get the most recent one
-  const sortedVideos = [...videoData].sort((a, b) => new Date(b.date) - new Date(a.date))
-  const mainVideo = sortedVideos[0]
-  const gridVideos = sortedVideos.slice(1) // Get all videos except the main one for the grid
+  const mainVideo = videoData[0]
 
   return (
     <div className="container mx-auto px-4 py-8">
-      {/* Header */}
       <div className="text-center mb-8">
         <div className="flex items-center justify-center gap-2 text-maroon-700 mb-4">
           <span className="text-2xl text-[#8B1D42]">🕉</span>
@@ -116,7 +56,6 @@ const Videos = () => {
         <h1 className="text-4xl md:text-5xl font-bold text-orange-500 mb-12">Our Videos</h1>
       </div>
 
-      {/* Main Video Section */}
       <div className="flex flex-col lg:flex-row gap-8 mb-16 bg-gray-100 p-4 rounded-lg">
         <div className="w-4/5 lg:w-4/5 xl:w-1/2 mx-auto lg:mx-0">
           <div
@@ -150,31 +89,6 @@ const Videos = () => {
         </div>
       </div>
 
-      {/* Video Grid */}
-      <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-        {gridVideos.map((video) => (
-          <div key={video.id} className="space-y-3">
-            <div
-              className="relative group cursor-pointer aspect-video overflow-hidden rounded-lg"
-              onClick={() => setSelectedVideo(video.videoId)}
-            >
-              <img
-                src={thumbnails[video.id] || "/placeholder.svg"}
-                alt={video.title}
-                className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-              />
-              <div className="absolute inset-0 bg-gray-800/40 group-hover:bg-gray-800/60 transition-colors flex items-center justify-center">
-                <div className="w-12 h-12 bg-white rounded-full flex items-center justify-center group-hover:scale-110 transition-transform">
-                  <Play className="w-6 h-6 text-maroon-700 fill-maroon-700" />
-                </div>
-              </div>
-            </div>
-            <h3 className="font-semibold text-lg text-orange-500">{video.title}</h3>
-          </div>
-        ))}
-      </div>
-
-      {/* Video Modal */}
       <Modal isOpen={!!selectedVideo} onClose={() => setSelectedVideo(null)}>
         <iframe
           width="100%"
@@ -191,4 +105,3 @@ const Videos = () => {
 }
 
 export default Videos
-
