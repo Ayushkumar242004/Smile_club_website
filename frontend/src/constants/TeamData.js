@@ -150,6 +150,33 @@ export const teamData = [
       category: "Core Team"
     },
    
+
+    //alumni
+    {
+      name: "John Doe",
+      photo: "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+      linkedin: "https://linkedin.com/in/johndoe",
+      category: "Alumni",
+      year: 2025,  // Ensure each alumni has a year field
+      designation: "Former President",
+    },
+    {
+      name: "Jane Smith",
+      photo: "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+      linkedin: "https://linkedin.com/in/janesmith",
+      category: "Alumni",
+      year: 2023,  // Different years for alumni
+      designation: "Former Web Lead",
+    },
+    {
+      name: "Alice Brown",
+      photo: "https://gratisography.com/wp-content/uploads/2024/11/gratisography-augmented-reality-800x525.jpg",
+      linkedin: "https://linkedin.com/in/alicebrown",
+      category: "Alumni",
+      year: 2023,
+      designation: "Former Treasurer",
+    }
    
     
   ];
+
