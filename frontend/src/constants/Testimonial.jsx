@@ -5,7 +5,7 @@ export const testimonial = [
     role: "Ex-Covenor",
     image: "ajinkya.jpeg",
     quote:
-        "You have the right to perform your duty, but never to the fruits of your work. Let not the rewards of action be your motive, nor let attachment to inaction consume you.",
+        "The difference between who you are and who you want to be is what you do. Every great achievement starts with a small step, and every small effort compounds over time. ",
     },
     {
     id: 2,
@@ -13,7 +13,7 @@ export const testimonial = [
     role: "Convener",
     image: "image.png",
     quote:
-        "Three gates lead to self-destruction and hell: Lust, anger, and greed. Therefore, one must renounce these three to find true peace and righteousness.",
+        "The most important thing is to keep doing our best consistently and leaving the rest to Krishna,it's not always about what we could get ,it is actually about how we could serve which gives fulfillment.",
     },
    
 ]
