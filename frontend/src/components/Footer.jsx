@@ -108,6 +108,14 @@ const Footer = () => {
             >
               <i className="fa-brands fa-youtube"></i>
             </a>
+            <a 
+             href="https://mail.google.com/mail/?view=cm&fs=1&to=smileclun@nitk.edu.in.com" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-white text-xl transition duration-300 hover:text-maroon-200"
+            >
+              <i className="fa-solid fa-envelope"></i>
+            </a>
           </div>
         </div>
       </div>
