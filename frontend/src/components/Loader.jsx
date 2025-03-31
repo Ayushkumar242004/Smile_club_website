@@ -29,7 +29,7 @@ export default function LoaderPage() {
           }}
         >
           <img
-            src="/Om-symbol.png" 
+            src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743441113/Om-symbol_clkwig.png" 
             alt="Loading..."
             style={{
               width: "170px",

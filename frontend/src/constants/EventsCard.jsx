@@ -2,7 +2,7 @@ export const events = [
     {
     id: 1,
     title: "Adiparampara - A Journey Through Traditional Games 🎲",
-    image: "/EventCard/adi.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442272/adi_zqymq0.png",
     date: "1 Mar 2025",
     link: "https://example.com/phenomenon-labs",
     tags: ["Event", "Culture", "Inauguration"], 
@@ -11,7 +11,7 @@ export const events = [
     {
     id: 2,
     title: "Maha Shivaratri (महाशिवरात्रि) Celebration!",
-    image: "/EventCard/shivratri.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/shivratri_gg6e54.png",
     date: "26 Feb 2025",
     link: "https://example.com/zajno",
     tags: ["Festival", "Culture","Shiva", "Tradition"], 
@@ -20,7 +20,7 @@ export const events = [
     {
     id: 3,
     title: "AYODHYA RAM PUNAH AAGMAN",
-    image: "/EventCard/ram.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442274/ram_rog0vq.png",
     date: "22 Jan 2025",
     link: "https://example.com/ascended",
     tags: ["Festival", "Culture", "Temple", "Rama", "Tradition"], 
@@ -29,7 +29,7 @@ export const events = [
     {
     id: 4,
     title: "ADIPARAMPARA: KRIDOTSAV",
-    image: "/EventCard/kridotsav.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/kridotsav_dhhqlz.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
     tags: ["Event", "Fun", "Games", "Tradition"], 
@@ -38,7 +38,7 @@ export const events = [
     {
     id: 5,
     title: "ADIPARAMPARA: AAKRITI",
-    image: "/EventCard/aakriti.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442272/aakriti_sziqu4.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
     tags: ["Creativity", "Games", "Tradition"], 
@@ -47,7 +47,7 @@ export const events = [
     {
     id: 6,
     title: "ADIPARAMPARA: KURUKSHETRA 2.0",
-    image: "/EventCard/kurukshetra.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/kurukshetra_l0tpnz.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
     tags: ["Brilliant", "Games", "Mind"], 
@@ -56,7 +56,7 @@ export const events = [
     {
     id: 7,
     title: "ADIPARAMPARA: CHAKRAVIYUH",
-    image: "/EventCard/chakraviyuh.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442272/chakraviyuh_zaer63.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
     tags: ["Strategy", "Event", "Treasure"], 
@@ -65,7 +65,7 @@ export const events = [
     {
     id: 8,
     title: "ADIPARAMPARA: RASAMAYA MANJARI",
-    image: "/EventCard/Rasamaya.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/Rasamaya_iebfkz.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
     tags: ["Emotions", "Aesthetic", "Event"], 
@@ -74,7 +74,7 @@ export const events = [
     {
     id: 9,
     title: "ADIPARAMPARA: VASTRA MAHOTSAV",
-    image: "/EventCard/vastra.png",
+    image: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/vastra_tkoi2o.png",
     date: "1 Mar 2025",
     link: "https://example.com/ascended",
     tags: ["Clothes", "Culture", "Competition", "Tradition"], 

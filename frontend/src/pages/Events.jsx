@@ -9,7 +9,7 @@ import { motion, useMotionValue, useSpring } from "framer-motion";
 export default function Events() {
   return (
     <div className="">
-      <Hero2 title="Our Events" vid="/Hero/shiva4.mp4"/>
+      <Hero2 title="Our Events" vid="https://res.cloudinary.com/dqlgqfxi6/video/upload/v1743445230/shiva4_skuqec.mp4"/>
       <EventsCard />    
       <Videos />    
       <Testimonial/>

@@ -11,35 +11,35 @@ const Sig = () => {
       title: "Web Dev",
       description:
         "Building the web, one line at a time! We design and develop dynamic, responsive websites using modern technologies.",
-      icon: "num1.png",
+      icon: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743446035/num1_u0f9ki.png",
       bgColor: "bg-[#7e4555]",
     },
     {
       title: "Media",
       description:
         "Creativity through visuals! From graphic design to video production, we bring ideas to life with stunning media content.",
-      icon: "num2.png",
+      icon: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743446036/num2_z9u5rz.png",
       bgColor: "bg-[#db4242]",
     },
     {
       title: "Content",
       description:
         "Words that connect! We craft engaging blogs, social media posts, and website content that inform and inspire.",
-      icon: "num3.png",
+      icon: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743446038/num3_ppqdvv.png",
       bgColor: "bg-[#7e4555]",
     },
     {
       title: "Marketing",
       description:
         "Spreading the word! Strategic campaigns that boost visibility and connect your brand with the right audience.",
-      icon: "num1.png",
+      icon: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743446035/num1_u0f9ki.png",
       bgColor: "bg-[#db4242]",
     },
     {
       title: "Publicity",
       description:
         "Making an impact! We strategize and execute campaigns to enhance outreach, engagement, and visibility.",
-      icon: "num2.png",
+      icon: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743446036/num2_z9u5rz.png",
       bgColor: "bg-[#7e4555]",
     },
   ];
@@ -63,7 +63,7 @@ const Sig = () => {
     <div
       className="bg-orange-100 flex flex-col md:h-screen md:py-0 py-16 w-full lg:px-28 md:px-16 sm:px-20 px-10 md:items-start content-center justify-center self-center text-[#fff] relative"
       style={{
-        backgroundImage: "url('bg.png')",
+        backgroundImage: "url('https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743446206/bg_ihsa8s.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

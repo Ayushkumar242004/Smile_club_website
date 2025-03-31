@@ -88,7 +88,7 @@ function NotFound() {
         }}
       >
         <img
-          src="/astro.png"
+          src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743445809/astro_bet9z3.png"
           alt="Lost Astronaut"
           className="w-64 opacity-90 animate-floating"
         />

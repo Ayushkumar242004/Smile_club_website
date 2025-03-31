@@ -13,7 +13,7 @@ export default function Blogs() {
   return (
     <div className="min-h-screen bg-black">
       
-      <Hero2 title="Blogs" vid="/Hero/bells.mp4"/>
+      <Hero2 title="Blogs" vid="https://res.cloudinary.com/dqlgqfxi6/video/upload/v1743444280/bells_wpvagc.mp4"/>
 
       
 

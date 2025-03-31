@@ -2,7 +2,7 @@ export const blogs = [
     {
         id: 1,
         title: "Stories from Mahābhārata - The Wisdom of Bhīshma and the Sage 🕉️",
-        images: ["/blog/mahabharat10.jpeg"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442742/mahabharat10_bkgs0r.jpg"],
         qna: [
             {
                 question: "What is the most crucial refuge for humans according to Bhīshma?",
@@ -30,7 +30,7 @@ export const blogs = [
     {
         id: 2,
         title: "Stories from Mahābhārata - The Tale of King Nriga 🦎",
-        images: ["/blog/mahabharat2.jpeg", ], // Update with relevant image paths
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442737/mahabharat2_mjvy4j.jpg", ], // Update with relevant image paths
         qna: [
             {
                 question: "What was King Nriga known for?",
@@ -60,7 +60,7 @@ export const blogs = [
     {
         "id": 3,
         "title": "Stories from Mahābhārata - Jājali and Tulādhāra: A Lesson in Humility",
-        "images": ["/blog/mahabharat3.jpeg"],
+        "images": ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442737/mahabharat3_hfmtmo.jpg"],
         "qna": [
             {
                 "question": "Who was Jājali, and what was his penance?",
@@ -92,7 +92,7 @@ export const blogs = [
         "id": 4,
         "title": "Stories from Mahābhārata",
         "author": "Ashutosh Prabhu",
-        "images": ["/blog/mahabharat4.jpeg"],
+        "images": ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442738/mahabharat4_uvwwz9.jpg"],
         "qna": [
             {
                 "question": "What is the central theme of the story?",
@@ -121,7 +121,7 @@ export const blogs = [
         "id": 5,
         "title": "A unique Kṛṣṇārpaṇa in the Viṣṇu Sahasranāma",
         "author": "V. D. Acharya",
-        "images": ["/blog/mahabharat5.jpeg"],
+        "images": ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442738/mahabharat5_lfuqg5.jpg"],
         "qna": [
             {
                 "question": "What is the main question explored in the blog?",
@@ -150,7 +150,7 @@ export const blogs = [
         "id": 6,
         "title": "Stories from Mahābhārata",
         "author": "Ashutosh Prabhu",
-        "images": ["/blog/mahabharat6.jpeg"],
+        "images": ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442740/mahabharat6_j0ffwr.jpg"],
         "qna": [
             {
                 "question": "What is the moral of the story?",

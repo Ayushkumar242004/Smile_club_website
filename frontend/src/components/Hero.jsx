@@ -40,7 +40,7 @@ export default function Hero() {
           playsInline
           className="absolute top-0 left-0 w-full h-full object-cover"
         >
-          <source src="/Hero/shiva_vid.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/dqlgqfxi6/video/upload/v1743444280/shiva_vid_uswekr.mp4" type="video/mp4" />
         </video>
 
         <div className='h-full w-full flex items-center justify-center text-center absolute bg-[rgba(96,9,9,0.4)] '>
