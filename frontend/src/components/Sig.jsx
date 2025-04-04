@@ -42,6 +42,13 @@ const Sig = () => {
       icon: "num2.png",
       bgColor: "bg-[#7e4555]",
     },
+    {
+      title: "Event Management",
+      description:
+        "Seamless events, lasting impressions! We plan and organize events with precision to ensure success and engagement.",
+      icon: "num3.png",
+      bgColor: "bg-[#db4242]",
+    },
   ];
 
   const totalCards = services.length;
