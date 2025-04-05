@@ -10,14 +10,14 @@ export default function About() {
             <div className=" flex flex-col lg:gap-5 md:gap-0  relative top-[-3em]">
           <div className="relative h-full overflow-hidden ">
             <img
-              src="about1.jpg"
+              src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743438538/about1_ywjyjw.jpg"
               alt="Hindu ceremony"
               className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
           </div>
           <div className="relative h-full overflow-hidden ">
             <img
-              src="about3.jpg"
+              src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743439518/about3_szrwrq.jpg"
               alt="Diya ceremony"
               className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
@@ -26,7 +26,7 @@ export default function About() {
           <div className="flex lg:gap-5 md:gap-0  flex-col">
           <div className="relative h-full overflow-hidden ">
             <img
-              src="about2.jpg"
+              src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743439518/about2_pratx6.jpg"
               alt="Nataraja statue"
               className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
@@ -34,7 +34,7 @@ export default function About() {
           
           <div className="relative h-full overflow-hidden ">
             <img
-              src="about4.jpg"
+              src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743439518/about4_toc5va.jpg"
               alt="Ganesha idol"
               className="object-cover lg:size-[100%] md:size-[89%] size-[85%]"
             />
@@ -73,7 +73,7 @@ export default function About() {
             {/* Temple Feature */}
             <div className="flex gap-4 items-start">
               <div className="flex items-center justify-center">
-                <img src="om.png" alt="om"/>
+                <img src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743439666/om_g7z8zn.png" alt="om"/>
               </div>
               <div>
                 <h3 className="lg:text-xl text-lg font-semibold text-[#E23D3D] mb-2">
@@ -88,7 +88,7 @@ export default function About() {
             {/* Puja Feature */}
             <div className="flex gap-4 items-start">
               <div className="flex items-center justify-center">
-                <img src="temple.png" alt="temple" />
+                <img src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743439667/temple_wjndlt.png" alt="temple" />
               </div>
               <div>
                 <h3 className="lg:text-xl text-lg font-semibold text-[#E23D3D] mb-2">

@@ -2,7 +2,7 @@ export const events = [
     {
     id: 1,
     title: "Adiparampara - A Journey Through Traditional Games 🎲",
-    images: ["/EventCard/adi.png"],
+    images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442272/adi_zqymq0.png"],
     qna: [
         {
           "question": "ADIPARAMPARA: Bhagavad – Leadership Sutras from the Bhagavad Gita! 📖🌟",
@@ -49,7 +49,7 @@ export const events = [
     {
     id: 2,
     title: "Maha Shivaratri Celebration!",
-    images: ["/EventCard/shivratri.png"],
+    images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/shivratri_gg6e54.png"],
     qna: [
         {
           "question": "SMILE BHARATH: Maha Shivratri Celebration – A Night of Devotion and Blessings! 🕉🌙",
@@ -92,7 +92,7 @@ export const events = [
     {
         id: 3,
         title: "AYODHYA RAM PUNAH AAGMAN",
-        images: ["/EventCard/ram.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442274/ram_rog0vq.png"],
         qna: [
             {
               "question": "Utkrishta Bharat & SMILE Club Present: Ayodhya Ram Punah Aagman Vaarshikotsav – A Celebration of Devotion and Culture! 🕉🎭",
@@ -131,7 +131,7 @@ export const events = [
     {
         id: 4,
         title:"ADIPARAMPARA: KRIDOTSAV" ,
-        images: ["/EventCard/kridotsav.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/kridotsav_dhhqlz.png"],
         qna:[
             {
                 question:"KRIDOTSAV: Relive the Golden Era of Childhood with Traditional Bharatiya Games! 🎲🏏⚡",
@@ -177,7 +177,7 @@ export const events = [
     {
         id: 5,
         title:"ADIPARAMPARA: AAKRITI" ,
-        images: ["/EventCard/aakriti.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442272/aakriti_sziqu4.png"],
         qna:[
             {
                 question:"AAKRITI: Unleash Your Creativity at the Painting Event of the Year! 🎨✨",
@@ -219,7 +219,7 @@ export const events = [
     {
         id: 6,
         title:"ADIPARAMPARA: KURUKSHETRA 2.0" ,
-        images: ["/EventCard/kurukshetra.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/kurukshetra_l0tpnz.png"],
         qna:[
             {
                 "question": "ADIPARAMPARA: KURUKSHETRA 2.0 – The Ultimate Quiz on Ramayana & Mahabharata! 📜",
@@ -266,7 +266,7 @@ export const events = [
     {
         id: 7,
         title:"ADIPARAMPARA: CHAKRAVIYUH" ,
-        images: ["/EventCard/chakraviyuh.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442272/chakraviyuh_zaer63.png"],
         qna:[
             {
               "question": "ADIPARAMPARA: Shile Chakravyuh – The Ultimate Cultural Treasure Hunt! 🎯🔍",
@@ -313,7 +313,7 @@ export const events = [
     {
         id: 8,
         title:"ADIPARAMPARA: RASAMAYA MANJARI" ,
-        images: ["/EventCard/Rasamaya.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/Rasamaya_iebfkz.png"],
         qna:[
             {
               "question": "ADIPARAMPARA: Rasamaya Manjar – A Bouquet of Emotions & Aesthetics! 🍲🌸",
@@ -356,7 +356,7 @@ export const events = [
     {
         id: 9,
         title:"ADIPARAMPARA: VASTRA MAHOTSAV" ,
-        images: ["/EventCard/vastra.png"],
+        images: ["https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743442273/vastra_tkoi2o.png"],
         qna:[
             {
               "question": "ADIPARAMPARA: Vastra Mahotsav – Celebrate Tradition in Style! 👘👑",
