@@ -10,21 +10,21 @@ export default function Vision() {
           <div className="relative max-w-[200px] xs:max-w-[280px] sm:max-w-md mx-auto mb-12 lg:mb-0">
             <div className="aspect-w-4 aspect-h-3 w-full xs:w-10/12 sm:w-3/4 mx-auto relative z-10">
               <img
-                src="/vision_images/shiva.jpg" // Update with your actual image path
+                src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743441519/shiva_aybesm.jpg" // Update with your actual image path
                 alt="Lord Shiva meditation"
                 className="w-full h-full object-cover rounded-lg shadow-lg"
               />
             </div>
             <div className="absolute -bottom-6 xs:-bottom-6 sm:-bottom-12 -right-8 sm:-right-12 lg:-right-12 w-20 h-20 xs:w-20 xs:h-20 sm:w-40 sm:h-40 lg:w-40 lg:h-40 overflow-hidden rounded-lg shadow-md">
               <img
-                src="/vision_images/temple.jpg" // Update with your actual image path
+                src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743441519/temple_mbuflo.jpg" // Update with your actual image path
                 alt="Temple structure"
                 className="w-full h-full object-cover rounded-lg"
               />
             </div>
             <div className="absolute -top-6 xs:-top-6 sm:-top-12 -left-12 xs:-left-6 sm:-left-10 lg:-left-8 w-20 h-20 xs:w-16 xs:h-16 sm:w-40 sm:h-40 lg:w-40 lg:h-40 overflow-hidden rounded-lg shadow-md">
               <img
-                src="/vision_images/ganesh.jpg" // Update with your actual image path
+                src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743441518/ganesh_rxa1gu.jpg" // Update with your actual image path
                 alt="Lord Ganesh"
                 className="w-full h-full object-cover rounded-lg"
               />

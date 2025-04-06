@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { motion, useMotionValue } from "framer-motion";
 import "./styles.css";
 
-export default function Hero_event({ title = "SMILE CLUB",  vid = "/Hero/shiva_vid.mp4"  }) {
+export default function Hero_event({ title = "SMILE CLUB",  vid = "https://res.cloudinary.com/dqlgqfxi6/video/upload/v1743444280/shiva_vid_uswekr.mp4"  }) {
 
   return (
     <>

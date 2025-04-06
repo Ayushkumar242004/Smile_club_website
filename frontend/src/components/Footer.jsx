@@ -25,7 +25,7 @@ const Footer = () => {
           <div className="mb-4">
             <img
               className="md:h-24 md:w-24 w-20 h-20 mx-auto"
-              src="/App_logo.png"
+              src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743440898/App_logo_nxixer.png"
               alt="Smile Club Logo"
             />
           </div>

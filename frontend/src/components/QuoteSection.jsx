@@ -23,7 +23,7 @@ const QuoteSection = () => {
           .quote-section {
               height: 100vh;
               width: 100%;
-              background: url('/bg4.jpg') no-repeat center center/cover;
+              background: url("https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743445692/bg4_fl3rn4.jpg") no-repeat center center/cover;
               display: flex;
               align-items: center;
               justify-content: center;

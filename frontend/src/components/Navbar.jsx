@@ -39,7 +39,7 @@ const Navbar = () => {
       <div className="w-full mx-auto px-4 md:px-12 flex justify-between items-center py-3">
         <a href="/" className="flex">
           <img 
-            src="/App_logo.png" 
+            src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743440898/App_logo_nxixer.png" 
             alt="Smile Club" 
             className="w-12 h-12 md:w-[72px] md:h-[72px] drop-shadow-[0_0_4px_rgba(255,255,255,0.4)]" 
           />
@@ -87,7 +87,7 @@ const Navbar = () => {
           <FaTimes />
         </button>
 
-        <img src="/logo.png" alt="Smile Club" className="w-16 h-16 mb-5" />
+        <img src="https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743440898/App_logo_nxixer.png" alt="Smile Club" className="w-16 h-16 mb-5" />
 
         <button onClick={() => handleNavigation("/")} className="text-white text-2xl hover:text-maroon-200 font-medium uppercase transition duration-300">
           Home
