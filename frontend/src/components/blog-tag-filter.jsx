@@ -34,16 +34,14 @@ const BlogTagFilter = ({ onFilterChange }) => {
   }, [selectedTags, onFilterChange])
 
   return (
-    <div className="max-w-7xl px-[18%] md:px-[6%] py-8">
-      <div className="mb-6">
-        <h3 className="text-2xl font-bold text-[#E23D3D] mb-4">Filter by Tags :-</h3>
+    <div className="max-w-7xl px-[18%] md:px-[5%] pt-8 pb-2">
         <div className="flex flex-wrap gap-3">
           {availableTags.map((tag, index) => (
             <button
               key={index}
               onClick={() => toggleTag(tag)}
-              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
-                selectedTags.includes(tag) ? "bg-[#E23D3D] text-white" : "bg-gray-100 text-gray-700 hover:bg-gray-200"
+              className={`px-4 py-2 rounded-full text-sm font-medium transition-colors border ${
+                selectedTags.includes(tag) ? "bg-[#DB4242] text-white border-[#DB4242]" : "bg-gray-100 text-gray-700 hover:bg-gray-200 border-[#333333]"
               }`}
             >
               {tag}
@@ -55,7 +53,6 @@ const BlogTagFilter = ({ onFilterChange }) => {
             Clear filters
           </button>
         )}
-      </div>
     </div>
   )
 }
