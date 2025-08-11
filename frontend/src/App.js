@@ -11,6 +11,7 @@ import Gallery from "./pages/Gallery";
 import CardPage from "./components/CardPage";
 import BlogPage from "./components/BlogPage";
 import GalleryPage from "./components/GalleryPage";
+import RakshaBandhanPopup from "./components/RakshaBandhanPopup";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function MainLayout() {
         <Loader />
       ) : (
         <div className="flex-grow">
+          {location.pathname === "/" && <RakshaBandhanPopup />} 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
