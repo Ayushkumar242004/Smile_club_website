@@ -11,7 +11,8 @@ import Gallery from "./pages/Gallery";
 import CardPage from "./components/CardPage";
 import BlogPage from "./components/BlogPage";
 import GalleryPage from "./components/GalleryPage";
-import RakshaBandhanPopup from "./components/RakshaBandhanPopup";
+// import RakshaBandhanPopup from "./components/RakshaBandhanPopup";
+import JoinSmileClubPopup from "./components/JoinSmileClubPopup"
 
 function App() {
   return (
@@ -36,14 +37,15 @@ function MainLayout() {
 
   return (
     <div className="flex flex-col min-h-screen bg-white">
-      {!is404Page && <Navbar />}  {/* ✅ Ensure Navbar is always present */}
+      {!is404Page && <Navbar />} 
       
       {/* Loader now appears OVER the content instead of blocking the Navbar */}
       {loading ? (
         <Loader />
       ) : (
         <div className="flex-grow">
-          {location.pathname === "/" && <RakshaBandhanPopup />} 
+          {/* {location.pathname === "/" && <RakshaBandhanPopup />} */}
+          {location.pathname === "/" && <JoinSmileClubPopup />} 
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/events" element={<Events />} />
@@ -81,8 +83,6 @@ function NotFound() {
   }, []);
   return (
     <div className="h-screen flex flex-col justify-center items-center bg-gradient-to-br from-maroon-900 to-maroon-700 text-white relative overflow-hidden">
-      {/* Glowing Effect */}
-      {/* Floating & Parallax Astronaut */}
       <div
         className="mt-10 relative z-10 transition-transform duration-100"
         style={{
