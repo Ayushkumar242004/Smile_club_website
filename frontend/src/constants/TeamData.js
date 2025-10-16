@@ -13,7 +13,13 @@ export const teamData = [
         photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444555/anshi_aw9wdu.jpg",
         linkedin: "https://linkedin.com/in/anshi-sachan",
         category: "Web Team"
-      },
+    },
+    {
+      name: "Abhinaya Siripurapu",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444551/abhinaya_dq3od4.jpg",
+      linkedin: "https://www.linkedin.com/in/abhinaya-srinivas-77b52225a/",
+      category: "Web Team"
+    },
       {
         name: "Asmit Deshmukh",
         photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444558/asmit_ymoown.jpg",
@@ -65,7 +71,7 @@ export const teamData = [
     {
       name: "Krishna Tulsyan",
       designation: "Convenor",
-      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444565/krishna_vmgja7.jpg",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1760623866/kt_kvmv9t.jpg",
       linkedin: "https://www.linkedin.com/in/krishnatulsyan/",
       category: "Core Team"
     },
@@ -93,15 +99,15 @@ export const teamData = [
 
 
     // content
-    /*
+    
     {
-      name: "",
-      designation: "",
-      photo: "",
-      linkedin: "",
+      name: "Sirivibha S P",
+      designation: "Content Head",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1760630478/sirivibha_croped_lwkbqc.jpg",
+      linkedin: "https://www.linkedin.com/in/sirivibha-s-p-2a2445200",
       category: "Core Team"
     },
-    */
+    
     {
       name: "Shravan Kulkarni ",
       designation: "Content Coordinator",
@@ -113,23 +119,23 @@ export const teamData = [
 
 
     //media
+    {
+      name: "Parul Ravindra Chauhan",
+      designation: "Media Head",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1760621916/parul_ibquew.jpg",
+      linkedin: "",
+      category: "Core Team"
+    },
+    {
+      name: "Jaicharan Yeluri",
+      designation: "Video Head",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1760623458/jaicharan_zwi074.jpg",
+      linkedin: "https://www.linkedin.com/in/jaicharan-yeluri-008b41294",
+      category: "Core Team"
+    },
     /*
     {
-      name: "",
-      designation: "",
-      photo: "",
-      linkedin: "",
-      category: "Core Team"
-    },
-    {
-      name: "",
-      designation: "",
-      photo: "",
-      linkedin: "",
-      category: "Core Team"
-    },
-    {
-      name: "",
+      name: "Vaishmi",
       designation: "",
       photo: "",
       linkedin: "",
@@ -143,6 +149,22 @@ export const teamData = [
       linkedin: "https://www.linkedin.com/in/om-kedare-91b4a2244/",
       category: "Core Team"
     },
+
+    //web core
+    {
+      name: "Ayush Kumar",
+      designation: "Web Head",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444559/ayush_c8qigz.jpg",
+      linkedin: "https://linkedin.com/in/ayush-kumar-5a2ab4299",
+      category: "Core Team"
+    },
+    {
+        name: "Anshi Sachan",
+        designation: "Web Coordinator",
+        photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444555/anshi_aw9wdu.jpg",
+        linkedin: "https://linkedin.com/in/anshi-sachan",
+        category: "Core Team"
+      },
     
 
 
@@ -170,50 +192,25 @@ export const teamData = [
     },
 
 
-/*
+
     //debate
+    /*
     {
-      name: "",
-      designation: "",
+      name: "Satyam",
+      designation: "Debate head",
       photo: "",
       linkedin: "",
       category: "Core Team"
     },
+    */
     {
-      name: "",
-      designation: "",
-      photo: "",
-      linkedin: "",
+      name: "SriPrahlad Mukunthan",
+      designation: "Debate Coordinator",
+      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1760623587/prahlad_ap6oeq.jpg",
+      linkedin: "https://www.linkedin.com/in/sriprahlad-mukunthan-b32943254/",
       category: "Core Team"
     },
 
-
-
-
-
-    //public relations
-    {
-      name: "",
-      designation: "",
-      photo: "",
-      linkedin: "",
-      category: "Core Team"
-    },
-    {
-      name: "",
-      designation: "",
-      photo: "",
-      linkedin: "",
-      category: "Core Team"
-    },
-    {
-      name: "Anant Kamat",
-      designation: "Media Coordinator",
-      photo: "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743444552/anant_te0sau.jpg",
-      linkedin: "https://www.linkedin.com/in/anant-kamat-a19813275/",
-      category: "Core Team"
-    },
-*/
    
 
     //alumni
