@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import joinSmileClubImg from "../images/joinsmileclub.jpg";
+import joinSmileClubImg from "../images/sreshta_program.jpeg";
 
 const RakshaBandhanPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,7 +29,7 @@ const RakshaBandhanPopup = () => {
   return (
     <div className="fixed inset-0 flex items-start justify-center bg-black bg-opacity-50 z-[9999]">
       <div
-        className={`relative mt-28 transform transition-all duration-300 ${
+        className={`relative mt-8 transform transition-all duration-300 ${
           animate ? "opacity-100 scale-100" : "opacity-0 scale-75"
         }`}
       >
@@ -46,7 +46,7 @@ const RakshaBandhanPopup = () => {
         <img
           src={joinSmileClubImg}
           alt="Join Smile Club"
-          className="rounded-lg shadow-lg max-w-[90vw] max-h-[80vh] w-auto h-auto object-contain"
+          className="rounded-lg shadow-lg max-w-[100vw] max-h-[90vh] w-auto h-auto object-contain"
         />
       </div>
     </div>
