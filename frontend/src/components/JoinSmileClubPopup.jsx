@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import joinSmileClubImg from "../images/joinsmileclub.jpg";
+import joinSmileClubImg from "../images/sreshta.jpg";
 
-const RakshaBandhanPopup = () => {
+const JoinSmileClubPopup = () => {
   const [isOpen, setIsOpen] = useState(false);
   const [animate, setAnimate] = useState(false);
 
@@ -45,12 +45,12 @@ const RakshaBandhanPopup = () => {
         {/* Poster Image */}
         <img
           src={joinSmileClubImg}
-          alt="Join Smile Club"
-          className="rounded-lg shadow-lg max-w-[90vw] max-h-[80vh] w-auto h-auto object-contain"
+          alt="Sreshta Program Poster"
+          className="rounded-lg shadow-lg max-w-[100vw] max-h-[80vh] w-auto h-auto object-contain"
         />
       </div>
     </div>
   );
 };
 
-export default RakshaBandhanPopup;
+export default JoinSmileClubPopup;
