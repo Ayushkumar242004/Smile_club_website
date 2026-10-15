@@ -1,3 +1,10 @@
+import anaghaPhoto from "../images/team/anagha-jha.jpg";
+import avighnaPhoto from "../images/team/avighna-swarna-satish.jpg";
+import darshanPhoto from "../images/team/darshan-b.jpg";
+import geethaPhoto from "../images/team/p-geetha.jpg";
+import sandeshPhoto from "../images/team/sandesh-reddy.jpg";
+import vivaanPhoto from "../images/team/vivaan-sharma.jpg";
+
 // A transparent image keeps missing portraits blank inside the existing circular frame.
 const blankPhoto = "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22144%22 height=%22144%22/%3E";
 
@@ -72,7 +79,7 @@ export const teamData = [
   {
     "name": "Avighna Swarna Satish",
     "designation": "Joint-Convenor",
-    "photo": blankPhoto,
+    "photo": avighnaPhoto,
     "linkedin": "",
     "category": "Core Team"
   },
@@ -128,7 +135,7 @@ export const teamData = [
   {
     "name": "Anagha",
     "designation": "Media Coordinator",
-    "photo": blankPhoto,
+    "photo": anaghaPhoto,
     "linkedin": "",
     "category": "Core Team"
   },
@@ -142,7 +149,7 @@ export const teamData = [
   {
     "name": "Vivaan",
     "designation": "Content Coordinator",
-    "photo": blankPhoto,
+    "photo": vivaanPhoto,
     "linkedin": "",
     "category": "Core Team"
   },
@@ -163,14 +170,14 @@ export const teamData = [
   {
     "name": "P Geetha",
     "designation": "Events Coordinator",
-    "photo": blankPhoto,
+    "photo": geethaPhoto,
     "linkedin": "",
     "category": "Core Team"
   },
   {
     "name": "Darshan B Kudlannavar",
     "designation": "Publicity Coordinator",
-    "photo": blankPhoto,
+    "photo": darshanPhoto,
     "linkedin": "",
     "category": "Core Team"
   },
@@ -184,7 +191,7 @@ export const teamData = [
   {
     "name": "Sandesh Reddy",
     "designation": "Marketing Coordinator",
-    "photo": blankPhoto,
+    "photo": sandeshPhoto,
     "linkedin": "",
     "category": "Core Team"
   },
