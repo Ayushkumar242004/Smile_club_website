@@ -4,6 +4,7 @@ import darshanPhoto from "../images/team/darshan-b.jpg";
 import geethaPhoto from "../images/team/p-geetha.jpg";
 import sandeshPhoto from "../images/team/sandesh-reddy.jpg";
 import vivaanPhoto from "../images/team/vivaan-sharma.jpg";
+import sujanPhoto from "../images/team/sujan-h.jpg";
 
 // A transparent image keeps missing portraits blank inside the existing circular frame.
 const blankPhoto = "data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22144%22 height=%22144%22/%3E";
@@ -44,7 +45,7 @@ export const teamData = [
   },
   {
     "name": "Sujan H",
-    "photo": "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1760465435/sujan_rkdxok.jpg",
+    "photo": sujanPhoto,
     "linkedin": "https://www.linkedin.com/in/sujan-h-358068378",
     "category": "Web Team"
   },
