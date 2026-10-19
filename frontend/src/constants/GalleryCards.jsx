@@ -46,4 +46,15 @@ export const GalleryCards = [
             "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1743443364/ISKCON2_yqapkg.jpg",
         ]
     },
+    {
+        id: 7,
+        event: "KRISHNA JANMASHTAMI",
+        images: [
+            "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1792393648/krishna_janmashtami1_j3audl.jpg",
+            "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1792393648/krishna_janmashtami2_s9cklf.jpg",
+            "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1792393943/krishna_janmashtami3_marmem.jpg",
+            "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1792393649/krishna_janmashtami4_c3jhg7.jpg",
+            "https://res.cloudinary.com/dqlgqfxi6/image/upload/v1792393650/krishna_janmashtami5_bggfdb.jpg",
+        ]
+    },
 ]
