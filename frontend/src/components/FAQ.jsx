@@ -1,4 +1,4 @@
-import { React, useState } from "react";
+import React, { useState } from "react";
 import { Minus, Plus } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import { faqs } from "../constants/FAQ.jsx";
