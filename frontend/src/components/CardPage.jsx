@@ -1,4 +1,4 @@
-import {React, useState, useEffect} from 'react';
+import React,{ useState, useEffect} from 'react';
 import { useParams } from 'react-router-dom';
 import Hero2 from './Hero2.jsx';
 import {events} from '.././constants/EventCardPage.jsx';
